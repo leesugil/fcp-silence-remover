@@ -1,0 +1,1205 @@
+fcpxml file: /Users/sugil/Downloads/30 2025-11-21 18-00-29 더 그레이트 노옹노 Project.fcpxmld
+video file: /Users/sugil/Movies/AdventurersTavern/Bannerlord Single Play Nov 2025/Video/30 2025-11-21 18-00-29 더 그레이트 노옹노.mov
+old_asset_clip fps: 100/6000s, start: None, start_frac: 0, end: 9/60s, end_frac: 3/20, duration: 3/20
+old_asset_clip duration before: 38039100/6000s, after: 3/20s
+new_asset_clip duration before: 38039100/6000s, after: 380099/60s, silence_duration 283/60s, old_duration: 3/20s
+old_asset_clip fps: 100/6000s, start: 292/60s, start_frac: 73/15, end: 346/60s, end_frac: 173/30, duration: 9/10
+old_asset_clip duration before: 380099/60s, after: 9/10s
+new_asset_clip duration before: 380099/60s, after: 19001/3s, silence_duration 5/12s, old_duration: 9/10s
+old_asset_clip fps: 100/6000s, start: 371/60s, start_frac: 371/60, end: 479/60s, end_frac: 479/60, duration: 9/5
+old_asset_clip duration before: 19001/3s, after: 9/5s
+new_asset_clip duration before: 19001/3s, after: 18995/3s, silence_duration 1/5s, old_duration: 9/5s
+old_asset_clip fps: 100/6000s, start: 491/60s, start_frac: 491/60, end: 625/60s, end_frac: 125/12, duration: 67/30
+old_asset_clip duration before: 18995/3s, after: 67/30s
+new_asset_clip duration before: 18995/3s, after: 75943/12s, silence_duration 17/20s, old_duration: 67/30s
+old_asset_clip fps: 100/6000s, start: 676/60s, start_frac: 169/15, end: 783/60s, end_frac: 261/20, duration: 107/60
+old_asset_clip duration before: 75943/12s, after: 107/60s
+new_asset_clip duration before: 75943/12s, after: 25217/4s, silence_duration 451/20s, old_duration: 107/60s
+old_asset_clip fps: 100/6000s, start: 2136/60s, start_frac: 178/5, end: 2228/60s, end_frac: 557/15, duration: 23/15
+old_asset_clip duration before: 25217/4s, after: 23/15s
+new_asset_clip duration before: 25217/4s, after: 377953/60s, silence_duration 7/2s, old_duration: 23/15s
+old_asset_clip fps: 100/6000s, start: 2438/60s, start_frac: 1219/30, end: 2620/60s, end_frac: 131/3, duration: 91/30
+old_asset_clip duration before: 377953/60s, after: 91/30s
+new_asset_clip duration before: 377953/60s, after: 377711/60s, silence_duration 1s, old_duration: 91/30s
+old_asset_clip fps: 100/6000s, start: 2680/60s, start_frac: 134/3, end: 2768/60s, end_frac: 692/15, duration: 22/15
+old_asset_clip duration before: 377711/60s, after: 22/15s
+new_asset_clip duration before: 377711/60s, after: 377291/60s, silence_duration 83/15s, old_duration: 22/15s
+old_asset_clip fps: 100/6000s, start: 3100/60s, start_frac: 155/3, end: 3199/60s, end_frac: 3199/60, duration: 33/20
+old_asset_clip duration before: 377291/60s, after: 33/20s
+new_asset_clip duration before: 377291/60s, after: 377023/60s, silence_duration 169/60s, old_duration: 33/20s
+old_asset_clip fps: 100/6000s, start: 3368/60s, start_frac: 842/15, end: 3673/60s, end_frac: 3673/60, duration: 61/12
+old_asset_clip duration before: 377023/60s, after: 61/12s
+new_asset_clip duration before: 377023/60s, after: 125493/20s, silence_duration 239/60s, old_duration: 61/12s
+old_asset_clip fps: 100/6000s, start: 3912/60s, start_frac: 326/5, end: 4055/60s, end_frac: 811/12, duration: 143/60
+old_asset_clip duration before: 125493/20s, after: 143/60s
+new_asset_clip duration before: 125493/20s, after: 25087/4s, silence_duration 31/60s, old_duration: 143/60s
+old_asset_clip fps: 100/6000s, start: 4086/60s, start_frac: 681/10, end: 4186/60s, end_frac: 2093/30, duration: 5/3
+old_asset_clip duration before: 25087/4s, after: 5/3s
+new_asset_clip duration before: 25087/4s, after: 376183/60s, silence_duration 11/30s, old_duration: 5/3s
+old_asset_clip fps: 100/6000s, start: 4208/60s, start_frac: 1052/15, end: 4373/60s, end_frac: 4373/60, duration: 11/4
+old_asset_clip duration before: 376183/60s, after: 11/4s
+new_asset_clip duration before: 376183/60s, after: 62667/10s, silence_duration 4/15s, old_duration: 11/4s
+old_asset_clip fps: 100/6000s, start: 4389/60s, start_frac: 1463/20, end: 4476/60s, end_frac: 373/5, duration: 29/20
+old_asset_clip duration before: 62667/10s, after: 29/20s
+new_asset_clip duration before: 62667/10s, after: 6265s, silence_duration 1/4s, old_duration: 29/20s
+old_asset_clip fps: 100/6000s, start: 4491/60s, start_frac: 1497/20, end: 4549/60s, end_frac: 4549/60, duration: 29/30
+old_asset_clip duration before: 6265/1s, after: 29/30s
+new_asset_clip duration before: 6265/1s, after: 187913/30s, silence_duration 4/15s, old_duration: 29/30s
+old_asset_clip fps: 100/6000s, start: 4565/60s, start_frac: 913/12, end: 4631/60s, end_frac: 4631/60, duration: 11/10
+old_asset_clip duration before: 187913/30s, after: 11/10s
+new_asset_clip duration before: 187913/30s, after: 93881/15s, silence_duration 59/15s, old_duration: 11/10s
+old_asset_clip fps: 100/6000s, start: 4867/60s, start_frac: 4867/60, end: 5065/60s, end_frac: 1013/12, duration: 33/10
+old_asset_clip duration before: 93881/15s, after: 33/10s
+new_asset_clip duration before: 93881/15s, after: 31271/5s, silence_duration 37/30s, old_duration: 33/10s
+old_asset_clip fps: 100/6000s, start: 5139/60s, start_frac: 1713/20, end: 5233/60s, end_frac: 5233/60, duration: 47/30
+old_asset_clip duration before: 31271/5s, after: 47/30s
+new_asset_clip duration before: 31271/5s, after: 375139/60s, silence_duration 19/60s, old_duration: 47/30s
+old_asset_clip fps: 100/6000s, start: 5252/60s, start_frac: 1313/15, end: 5381/60s, end_frac: 5381/60, duration: 43/20
+old_asset_clip duration before: 375139/60s, after: 43/20s
+new_asset_clip duration before: 375139/60s, after: 124999/20s, silence_duration 13/60s, old_duration: 43/20s
+old_asset_clip fps: 100/6000s, start: 5394/60s, start_frac: 899/10, end: 5494/60s, end_frac: 2747/30, duration: 5/3
+old_asset_clip duration before: 124999/20s, after: 5/3s
+new_asset_clip duration before: 124999/20s, after: 31236/5s, silence_duration 13/12s, old_duration: 5/3s
+old_asset_clip fps: 100/6000s, start: 5559/60s, start_frac: 1853/20, end: 5615/60s, end_frac: 1123/12, duration: 14/15
+old_asset_clip duration before: 31236/5s, after: 14/15s
+new_asset_clip duration before: 31236/5s, after: 187379/30s, silence_duration 3/10s, old_duration: 14/15s
+old_asset_clip fps: 100/6000s, start: 5633/60s, start_frac: 5633/60, end: 5717/60s, end_frac: 5717/60, duration: 7/5
+old_asset_clip duration before: 187379/30s, after: 7/5s
+new_asset_clip duration before: 187379/30s, after: 74927/12s, silence_duration 13/20s, old_duration: 7/5s
+old_asset_clip fps: 100/6000s, start: 5756/60s, start_frac: 1439/15, end: 5804/60s, end_frac: 1451/15, duration: 4/5
+old_asset_clip duration before: 74927/12s, after: 4/5s
+new_asset_clip duration before: 74927/12s, after: 74909/12s, silence_duration 7/10s, old_duration: 4/5s
+old_asset_clip fps: 100/6000s, start: 5846/60s, start_frac: 2923/30, end: 5916/60s, end_frac: 493/5, duration: 7/6
+old_asset_clip duration before: 74909/12s, after: 7/6s
+new_asset_clip duration before: 74909/12s, after: 74891/12s, silence_duration 1/3s, old_duration: 7/6s
+old_asset_clip fps: 100/6000s, start: 5936/60s, start_frac: 1484/15, end: 6242/60s, end_frac: 3121/30, duration: 51/10
+old_asset_clip duration before: 74891/12s, after: 51/10s
+new_asset_clip duration before: 74891/12s, after: 12471/2s, silence_duration 19/60s, old_duration: 51/10s
+old_asset_clip fps: 100/6000s, start: 6261/60s, start_frac: 2087/20, end: 6316/60s, end_frac: 1579/15, duration: 11/12
+old_asset_clip duration before: 12471/2s, after: 11/12s
+new_asset_clip duration before: 12471/2s, after: 186917/30s, silence_duration 241/60s, old_duration: 11/12s
+old_asset_clip fps: 100/6000s, start: 6557/60s, start_frac: 6557/60, end: 6620/60s, end_frac: 331/3, duration: 21/20
+old_asset_clip duration before: 186917/30s, after: 21/20s
+new_asset_clip duration before: 186917/30s, after: 124577/20s, silence_duration 2/3s, old_duration: 21/20s
+old_asset_clip fps: 100/6000s, start: 6660/60s, start_frac: 111, end: 6716/60s, end_frac: 1679/15, duration: 14/15
+old_asset_clip duration before: 124577/20s, after: 14/15s
+new_asset_clip duration before: 124577/20s, after: 93407/15s, silence_duration 47/60s, old_duration: 14/15s
+old_asset_clip fps: 100/6000s, start: 6763/60s, start_frac: 6763/60, end: 7059/60s, end_frac: 2353/20, duration: 74/15
+old_asset_clip duration before: 93407/15s, after: 74/15s
+new_asset_clip duration before: 93407/15s, after: 124377/20s, silence_duration 67/20s, old_duration: 74/15s
+old_asset_clip fps: 100/6000s, start: 7260/60s, start_frac: 121, end: 7354/60s, end_frac: 3677/30, duration: 47/30
+old_asset_clip duration before: 124377/20s, after: 47/30s
+new_asset_clip duration before: 124377/20s, after: 62169/10s, silence_duration 23/60s, old_duration: 47/30s
+old_asset_clip fps: 100/6000s, start: 7377/60s, start_frac: 2459/20, end: 7699/60s, end_frac: 7699/60, duration: 161/30
+old_asset_clip duration before: 62169/10s, after: 161/30s
+new_asset_clip duration before: 62169/10s, after: 37265/6s, silence_duration 7/10s, old_duration: 161/30s
+old_asset_clip fps: 100/6000s, start: 7741/60s, start_frac: 7741/60, end: 7886/60s, end_frac: 3943/30, duration: 29/12
+old_asset_clip duration before: 37265/6s, after: 29/12s
+new_asset_clip duration before: 37265/6s, after: 372451/60s, silence_duration 9/10s, old_duration: 29/12s
+old_asset_clip fps: 100/6000s, start: 7940/60s, start_frac: 397/3, end: 8039/60s, end_frac: 8039/60, duration: 33/20
+old_asset_clip duration before: 372451/60s, after: 33/20s
+new_asset_clip duration before: 372451/60s, after: 92429/15s, silence_duration 659/15s, old_duration: 33/20s
+old_asset_clip fps: 100/6000s, start: 10675/60s, start_frac: 2135/12, end: 10719/60s, end_frac: 3573/20, duration: 11/15
+old_asset_clip duration before: 92429/15s, after: 11/15s
+new_asset_clip duration before: 92429/15s, after: 184817/30s, silence_duration 19/30s, old_duration: 11/15s
+old_asset_clip fps: 100/6000s, start: 10757/60s, start_frac: 10757/60, end: 10953/60s, end_frac: 3651/20, duration: 49/15
+old_asset_clip duration before: 184817/30s, after: 49/15s
+new_asset_clip duration before: 184817/30s, after: 92356/15s, silence_duration 7/30s, old_duration: 49/15s
+old_asset_clip fps: 100/6000s, start: 10967/60s, start_frac: 10967/60, end: 11153/60s, end_frac: 11153/60, duration: 31/10
+old_asset_clip duration before: 92356/15s, after: 31/10s
+new_asset_clip duration before: 92356/15s, after: 123073/20s, silence_duration 19/60s, old_duration: 31/10s
+old_asset_clip fps: 100/6000s, start: 11172/60s, start_frac: 931/5, end: 11490/60s, end_frac: 383/2, duration: 53/10
+old_asset_clip duration before: 123073/20s, after: 53/10s
+new_asset_clip duration before: 123073/20s, after: 368867/60s, silence_duration 17/30s, old_duration: 53/10s
+old_asset_clip fps: 100/6000s, start: 11524/60s, start_frac: 2881/15, end: 11638/60s, end_frac: 5819/30, duration: 19/10
+old_asset_clip duration before: 368867/60s, after: 19/10s
+new_asset_clip duration before: 368867/60s, after: 122907/20s, silence_duration 8/15s, old_duration: 19/10s
+old_asset_clip fps: 100/6000s, start: 11670/60s, start_frac: 389/2, end: 11732/60s, end_frac: 2933/15, duration: 31/30
+old_asset_clip duration before: 122907/20s, after: 31/30s
+new_asset_clip duration before: 122907/20s, after: 368641/60s, silence_duration 3/10s, old_duration: 31/30s
+old_asset_clip fps: 100/6000s, start: 11750/60s, start_frac: 1175/6, end: 11995/60s, end_frac: 2399/12, duration: 49/12
+old_asset_clip duration before: 368641/60s, after: 49/12s
+new_asset_clip duration before: 368641/60s, after: 30697/5s, silence_duration 8/15s, old_duration: 49/12s
+old_asset_clip fps: 100/6000s, start: 12027/60s, start_frac: 4009/20, end: 12272/60s, end_frac: 3068/15, duration: 49/12
+old_asset_clip duration before: 30697/5s, after: 49/12s
+new_asset_clip duration before: 30697/5s, after: 184049/30s, silence_duration 7/20s, old_duration: 49/12s
+old_asset_clip fps: 100/6000s, start: 12293/60s, start_frac: 12293/60, end: 12423/60s, end_frac: 4141/20, duration: 13/6
+old_asset_clip duration before: 184049/30s, after: 13/6s
+new_asset_clip duration before: 184049/30s, after: 91972/15s, silence_duration 4/3s, old_duration: 13/6s
+old_asset_clip fps: 100/6000s, start: 12503/60s, start_frac: 12503/60, end: 12560/60s, end_frac: 628/3, duration: 19/20
+old_asset_clip duration before: 91972/15s, after: 19/20s
+new_asset_clip duration before: 91972/15s, after: 367819/60s, silence_duration 1/5s, old_duration: 19/20s
+old_asset_clip fps: 100/6000s, start: 12572/60s, start_frac: 3143/15, end: 12693/60s, end_frac: 4231/20, duration: 121/60
+old_asset_clip duration before: 367819/60s, after: 121/60s
+new_asset_clip duration before: 367819/60s, after: 73499/12s, silence_duration 203/60s, old_duration: 121/60s
+old_asset_clip fps: 100/6000s, start: 12896/60s, start_frac: 3224/15, end: 13063/60s, end_frac: 13063/60, duration: 167/60
+old_asset_clip duration before: 73499/12s, after: 167/60s
+new_asset_clip duration before: 73499/12s, after: 36727/6s, silence_duration 29/30s, old_duration: 167/60s
+old_asset_clip fps: 100/6000s, start: 13121/60s, start_frac: 13121/60, end: 13398/60s, end_frac: 2233/10, duration: 277/60
+old_asset_clip duration before: 36727/6s, after: 277/60s
+new_asset_clip duration before: 36727/6s, after: 366961/60s, silence_duration 8/15s, old_duration: 277/60s
+old_asset_clip fps: 100/6000s, start: 13430/60s, start_frac: 1343/6, end: 13474/60s, end_frac: 6737/30, duration: 11/15
+old_asset_clip duration before: 366961/60s, after: 11/15s
+new_asset_clip duration before: 366961/60s, after: 24457/4s, silence_duration 31/30s, old_duration: 11/15s
+old_asset_clip fps: 100/6000s, start: 13536/60s, start_frac: 1128/5, end: 13609/60s, end_frac: 13609/60, duration: 73/60
+old_asset_clip duration before: 24457/4s, after: 73/60s
+new_asset_clip duration before: 24457/4s, after: 30552/5s, silence_duration 79/30s, old_duration: 73/60s
+old_asset_clip fps: 100/6000s, start: 13767/60s, start_frac: 4589/20, end: 13812/60s, end_frac: 1151/5, duration: 3/4
+old_asset_clip duration before: 30552/5s, after: 3/4s
+new_asset_clip duration before: 30552/5s, after: 91637/15s, silence_duration 31/60s, old_duration: 3/4s
+old_asset_clip fps: 100/6000s, start: 13843/60s, start_frac: 13843/60, end: 14118/60s, end_frac: 2353/10, duration: 55/12
+old_asset_clip duration before: 91637/15s, after: 55/12s
+new_asset_clip duration before: 91637/15s, after: 61043/10s, silence_duration 1/4s, old_duration: 55/12s
+old_asset_clip fps: 100/6000s, start: 14133/60s, start_frac: 4711/20, end: 14279/60s, end_frac: 14279/60, duration: 73/30
+old_asset_clip duration before: 61043/10s, after: 73/30s
+new_asset_clip duration before: 61043/10s, after: 18304/3s, silence_duration 8/15s, old_duration: 73/30s
+old_asset_clip fps: 100/6000s, start: 14311/60s, start_frac: 14311/60, end: 14432/60s, end_frac: 3608/15, duration: 121/60
+old_asset_clip duration before: 18304/3s, after: 121/60s
+new_asset_clip duration before: 18304/3s, after: 73177/12s, silence_duration 37/30s, old_duration: 121/60s
+old_asset_clip fps: 100/6000s, start: 14506/60s, start_frac: 7253/30, end: 14643/60s, end_frac: 4881/20, duration: 137/60
+old_asset_clip duration before: 73177/12s, after: 137/60s
+new_asset_clip duration before: 73177/12s, after: 365729/60s, silence_duration 19/60s, old_duration: 137/60s
+old_asset_clip fps: 100/6000s, start: 14662/60s, start_frac: 7331/30, end: 14869/60s, end_frac: 14869/60, duration: 69/20
+old_asset_clip duration before: 365729/60s, after: 69/20s
+new_asset_clip duration before: 365729/60s, after: 365503/60s, silence_duration 19/60s, old_duration: 69/20s
+old_asset_clip fps: 100/6000s, start: 14888/60s, start_frac: 3722/15, end: 14935/60s, end_frac: 2987/12, duration: 47/60
+old_asset_clip duration before: 365503/60s, after: 47/60s
+new_asset_clip duration before: 365503/60s, after: 91328/15s, silence_duration 12/5s, old_duration: 47/60s
+old_asset_clip fps: 100/6000s, start: 15079/60s, start_frac: 15079/60, end: 15139/60s, end_frac: 15139/60, duration: 1
+old_asset_clip duration before: 91328/15s, after: 1s
+new_asset_clip duration before: 91328/15s, after: 364789/60s, silence_duration 463/60s, old_duration: 1s
+old_asset_clip fps: 100/6000s, start: 15602/60s, start_frac: 7801/30, end: 15697/60s, end_frac: 15697/60, duration: 19/12
+old_asset_clip duration before: 364789/60s, after: 19/12s
+new_asset_clip duration before: 364789/60s, after: 121431/20s, silence_duration 401/60s, old_duration: 19/12s
+old_asset_clip fps: 100/6000s, start: 16098/60s, start_frac: 2683/10, end: 16175/60s, end_frac: 3235/12, duration: 77/60
+old_asset_clip duration before: 121431/20s, after: 77/60s
+new_asset_clip duration before: 121431/20s, after: 60697/10s, silence_duration 17/30s, old_duration: 77/60s
+old_asset_clip fps: 100/6000s, start: 16209/60s, start_frac: 5403/20, end: 16585/60s, end_frac: 3317/12, duration: 94/15
+old_asset_clip duration before: 60697/10s, after: 94/15s
+new_asset_clip duration before: 60697/10s, after: 121241/20s, silence_duration 83/60s, old_duration: 94/15s
+old_asset_clip fps: 100/6000s, start: 16668/60s, start_frac: 1389/5, end: 16772/60s, end_frac: 4193/15, duration: 26/15
+old_asset_clip duration before: 121241/20s, after: 26/15s
+new_asset_clip duration before: 121241/20s, after: 121193/20s, silence_duration 2/3s, old_duration: 26/15s
+old_asset_clip fps: 100/6000s, start: 16812/60s, start_frac: 1401/5, end: 17106/60s, end_frac: 2851/10, duration: 49/10
+old_asset_clip duration before: 121193/20s, after: 49/10s
+new_asset_clip duration before: 121193/20s, after: 72649/12s, silence_duration 2/3s, old_duration: 49/10s
+old_asset_clip fps: 100/6000s, start: 17146/60s, start_frac: 8573/30, end: 17364/60s, end_frac: 1447/5, duration: 109/30
+old_asset_clip duration before: 72649/12s, after: 109/30s
+new_asset_clip duration before: 72649/12s, after: 36299/6s, silence_duration 37/60s, old_duration: 109/30s
+old_asset_clip fps: 100/6000s, start: 17401/60s, start_frac: 17401/60, end: 17465/60s, end_frac: 3493/12, duration: 16/15
+old_asset_clip duration before: 36299/6s, after: 16/15s
+new_asset_clip duration before: 36299/6s, after: 181439/30s, silence_duration 4/5s, old_duration: 16/15s
+old_asset_clip fps: 100/6000s, start: 17513/60s, start_frac: 17513/60, end: 17618/60s, end_frac: 8809/30, duration: 7/4
+old_asset_clip duration before: 181439/30s, after: 7/4s
+new_asset_clip duration before: 181439/30s, after: 60439/10s, silence_duration 139/60s, old_duration: 7/4s
+old_asset_clip fps: 100/6000s, start: 17757/60s, start_frac: 5919/20, end: 17937/60s, end_frac: 5979/20, duration: 3
+old_asset_clip duration before: 60439/10s, after: 3s
+new_asset_clip duration before: 60439/10s, after: 120807/20s, silence_duration 11/20s, old_duration: 3s
+old_asset_clip fps: 100/6000s, start: 17970/60s, start_frac: 599/2, end: 18247/60s, end_frac: 18247/60, duration: 277/60
+old_asset_clip duration before: 120807/20s, after: 277/60s
+new_asset_clip duration before: 120807/20s, after: 361997/60s, silence_duration 49/20s, old_duration: 277/60s
+old_asset_clip fps: 100/6000s, start: 18394/60s, start_frac: 9197/30, end: 18559/60s, end_frac: 18559/60, duration: 11/4
+old_asset_clip duration before: 361997/60s, after: 11/4s
+new_asset_clip duration before: 361997/60s, after: 180869/30s, silence_duration 47/30s, old_duration: 11/4s
+old_asset_clip fps: 100/6000s, start: 18653/60s, start_frac: 18653/60, end: 18932/60s, end_frac: 4733/15, duration: 93/20
+old_asset_clip duration before: 180869/30s, after: 93/20s
+new_asset_clip duration before: 180869/30s, after: 12045/2s, silence_duration 109/60s, old_duration: 93/20s
+old_asset_clip fps: 100/6000s, start: 19041/60s, start_frac: 6347/20, end: 19087/60s, end_frac: 19087/60, duration: 23/30
+old_asset_clip duration before: 12045/2s, after: 23/30s
+new_asset_clip duration before: 12045/2s, after: 180503/30s, silence_duration 149/30s, old_duration: 23/30s
+old_asset_clip fps: 100/6000s, start: 19385/60s, start_frac: 3877/12, end: 19451/60s, end_frac: 19451/60, duration: 11/10
+old_asset_clip duration before: 180503/30s, after: 11/10s
+new_asset_clip duration before: 180503/30s, after: 120309/20s, silence_duration 13/60s, old_duration: 11/10s
+old_asset_clip fps: 100/6000s, start: 19464/60s, start_frac: 1622/5, end: 19554/60s, end_frac: 3259/10, duration: 3/2
+old_asset_clip duration before: 120309/20s, after: 3/2s
+new_asset_clip duration before: 120309/20s, after: 12027/2s, silence_duration 9/20s, old_duration: 3/2s
+old_asset_clip fps: 100/6000s, start: 19581/60s, start_frac: 6527/20, end: 19751/60s, end_frac: 19751/60, duration: 17/6
+old_asset_clip duration before: 12027/2s, after: 17/6s
+new_asset_clip duration before: 12027/2s, after: 120197/20s, silence_duration 49/60s, old_duration: 17/6s
+old_asset_clip fps: 100/6000s, start: 19800/60s, start_frac: 330, end: 19861/60s, end_frac: 19861/60, duration: 61/60
+old_asset_clip duration before: 120197/20s, after: 61/60s
+new_asset_clip duration before: 120197/20s, after: 179971/30s, silence_duration 49/5s, old_duration: 61/60s
+old_asset_clip fps: 100/6000s, start: 20449/60s, start_frac: 20449/60, end: 20565/60s, end_frac: 1371/4, duration: 29/15
+old_asset_clip duration before: 179971/30s, after: 29/15s
+new_asset_clip duration before: 179971/30s, after: 359771/60s, silence_duration 11/12s, old_duration: 29/15s
+old_asset_clip fps: 100/6000s, start: 20620/60s, start_frac: 1031/3, end: 20740/60s, end_frac: 1037/3, duration: 2
+old_asset_clip duration before: 359771/60s, after: 2s
+new_asset_clip duration before: 359771/60s, after: 179819/30s, silence_duration 13/60s, old_duration: 2s
+old_asset_clip fps: 100/6000s, start: 20753/60s, start_frac: 20753/60, end: 20833/60s, end_frac: 20833/60, duration: 4/3
+old_asset_clip duration before: 179819/30s, after: 4/3s
+new_asset_clip duration before: 179819/30s, after: 89864/15s, silence_duration 17/10s, old_duration: 4/3s
+old_asset_clip fps: 100/6000s, start: 20935/60s, start_frac: 4187/12, end: 21030/60s, end_frac: 701/2, duration: 19/12
+old_asset_clip duration before: 89864/15s, after: 19/12s
+new_asset_clip duration before: 89864/15s, after: 179629/30s, silence_duration 103/60s, old_duration: 19/12s
+old_asset_clip fps: 100/6000s, start: 21133/60s, start_frac: 21133/60, end: 21248/60s, end_frac: 5312/15, duration: 23/12
+old_asset_clip duration before: 179629/30s, after: 23/12s
+new_asset_clip duration before: 179629/30s, after: 59853/10s, silence_duration 5/12s, old_duration: 23/12s
+old_asset_clip fps: 100/6000s, start: 21273/60s, start_frac: 7091/20, end: 21362/60s, end_frac: 10681/30, duration: 89/60
+old_asset_clip duration before: 59853/10s, after: 89/60s
+new_asset_clip duration before: 59853/10s, after: 29918/5s, silence_duration 13/60s, old_duration: 89/60s
+old_asset_clip fps: 100/6000s, start: 21375/60s, start_frac: 1425/4, end: 21487/60s, end_frac: 21487/60, duration: 28/15
+old_asset_clip duration before: 29918/5s, after: 28/15s
+new_asset_clip duration before: 29918/5s, after: 358891/60s, silence_duration 13/60s, old_duration: 28/15s
+old_asset_clip fps: 100/6000s, start: 21500/60s, start_frac: 1075/3, end: 21760/60s, end_frac: 1088/3, duration: 13/3
+old_asset_clip duration before: 358891/60s, after: 13/3s
+new_asset_clip duration before: 358891/60s, after: 358603/60s, silence_duration 7/15s, old_duration: 13/3s
+old_asset_clip fps: 100/6000s, start: 21788/60s, start_frac: 5447/15, end: 21939/60s, end_frac: 7313/20, duration: 151/60
+old_asset_clip duration before: 358603/60s, after: 151/60s
+new_asset_clip duration before: 358603/60s, after: 358247/60s, silence_duration 41/12s, old_duration: 151/60s
+old_asset_clip fps: 100/6000s, start: 22144/60s, start_frac: 5536/15, end: 22336/60s, end_frac: 5584/15, duration: 16/5
+old_asset_clip duration before: 358247/60s, after: 16/5s
+new_asset_clip duration before: 358247/60s, after: 178903/30s, silence_duration 83/20s, old_duration: 16/5s
+old_asset_clip fps: 100/6000s, start: 22585/60s, start_frac: 4517/12, end: 22702/60s, end_frac: 11351/30, duration: 39/20
+old_asset_clip duration before: 178903/30s, after: 39/20s
+new_asset_clip duration before: 178903/30s, after: 71525/12s, silence_duration 16/15s, old_duration: 39/20s
+old_asset_clip fps: 100/6000s, start: 22766/60s, start_frac: 11383/30, end: 22843/60s, end_frac: 22843/60, duration: 77/60
+old_asset_clip duration before: 71525/12s, after: 77/60s
+new_asset_clip duration before: 71525/12s, after: 71507/12s, silence_duration 13/60s, old_duration: 77/60s
+old_asset_clip fps: 100/6000s, start: 22856/60s, start_frac: 5714/15, end: 22920/60s, end_frac: 382, duration: 16/15
+old_asset_clip duration before: 71507/12s, after: 16/15s
+new_asset_clip duration before: 71507/12s, after: 119149/20s, silence_duration 2/5s, old_duration: 16/15s
+old_asset_clip fps: 100/6000s, start: 22944/60s, start_frac: 1912/5, end: 22988/60s, end_frac: 5747/15, duration: 11/15
+old_asset_clip duration before: 119149/20s, after: 11/15s
+new_asset_clip duration before: 119149/20s, after: 178577/30s, silence_duration 83/20s, old_duration: 11/15s
+old_asset_clip fps: 100/6000s, start: 23237/60s, start_frac: 23237/60, end: 23304/60s, end_frac: 1942/5, duration: 67/60
+old_asset_clip duration before: 178577/30s, after: 67/60s
+new_asset_clip duration before: 178577/30s, after: 89233/15s, silence_duration 31/12s, old_duration: 67/60s
+old_asset_clip fps: 100/6000s, start: 23459/60s, start_frac: 23459/60, end: 23558/60s, end_frac: 11779/30, duration: 33/20
+old_asset_clip duration before: 89233/15s, after: 33/20s
+new_asset_clip duration before: 89233/15s, after: 11889/2s, silence_duration 163/60s, old_duration: 33/20s
+old_asset_clip fps: 100/6000s, start: 23721/60s, start_frac: 7907/20, end: 23780/60s, end_frac: 1189/3, duration: 59/60
+old_asset_clip duration before: 11889/2s, after: 59/60s
+new_asset_clip duration before: 11889/2s, after: 23773/4s, silence_duration 4/15s, old_duration: 59/60s
+old_asset_clip fps: 100/6000s, start: 23796/60s, start_frac: 1983/5, end: 23880/60s, end_frac: 398, duration: 7/5
+old_asset_clip duration before: 23773/4s, after: 7/5s
+new_asset_clip duration before: 23773/4s, after: 356477/60s, silence_duration 17/30s, old_duration: 7/5s
+old_asset_clip fps: 100/6000s, start: 23914/60s, start_frac: 11957/30, end: 23983/60s, end_frac: 23983/60, duration: 23/20
+old_asset_clip duration before: 356477/60s, after: 23/20s
+new_asset_clip duration before: 356477/60s, after: 35621/6s, silence_duration 33/10s, old_duration: 23/20s
+old_asset_clip fps: 100/6000s, start: 24181/60s, start_frac: 24181/60, end: 24303/60s, end_frac: 8101/20, duration: 61/30
+old_asset_clip duration before: 35621/6s, after: 61/30s
+new_asset_clip duration before: 35621/6s, after: 23729/4s, silence_duration 51/20s, old_duration: 61/30s
+old_asset_clip fps: 100/6000s, start: 24456/60s, start_frac: 2038/5, end: 24666/60s, end_frac: 4111/10, duration: 7/2
+old_asset_clip duration before: 23729/4s, after: 7/2s
+new_asset_clip duration before: 23729/4s, after: 177829/30s, silence_duration 67/60s, old_duration: 7/2s
+old_asset_clip fps: 100/6000s, start: 24733/60s, start_frac: 24733/60, end: 24878/60s, end_frac: 12439/30, duration: 29/12
+old_asset_clip duration before: 177829/30s, after: 29/12s
+new_asset_clip duration before: 177829/30s, after: 88867/15s, silence_duration 3/4s, old_duration: 29/12s
+old_asset_clip fps: 100/6000s, start: 24923/60s, start_frac: 24923/60, end: 25144/60s, end_frac: 6286/15, duration: 221/60
+old_asset_clip duration before: 88867/15s, after: 221/60s
+new_asset_clip duration before: 88867/15s, after: 355057/60s, silence_duration 19/6s, old_duration: 221/60s
+old_asset_clip fps: 100/6000s, start: 25334/60s, start_frac: 12667/30, end: 25550/60s, end_frac: 2555/6, duration: 18/5
+old_asset_clip duration before: 355057/60s, after: 18/5s
+new_asset_clip duration before: 355057/60s, after: 354803/60s, silence_duration 19/30s, old_duration: 18/5s
+old_asset_clip fps: 100/6000s, start: 25588/60s, start_frac: 6397/15, end: 25672/60s, end_frac: 6418/15, duration: 7/5
+old_asset_clip duration before: 354803/60s, after: 7/5s
+new_asset_clip duration before: 354803/60s, after: 70921/12s, silence_duration 19/10s, old_duration: 7/5s
+old_asset_clip fps: 100/6000s, start: 25786/60s, start_frac: 12893/30, end: 25879/60s, end_frac: 25879/60, duration: 31/20
+old_asset_clip duration before: 70921/12s, after: 31/20s
+new_asset_clip duration before: 70921/12s, after: 70879/12s, silence_duration 39/20s, old_duration: 31/20s
+old_asset_clip fps: 100/6000s, start: 25996/60s, start_frac: 6499/15, end: 26085/60s, end_frac: 1739/4, duration: 89/60
+old_asset_clip duration before: 70879/12s, after: 89/60s
+new_asset_clip duration before: 70879/12s, after: 118017/20s, silence_duration 17/4s, old_duration: 89/60s
+old_asset_clip fps: 100/6000s, start: 26340/60s, start_frac: 439, end: 26411/60s, end_frac: 26411/60, duration: 71/60
+old_asset_clip duration before: 118017/20s, after: 71/60s
+new_asset_clip duration before: 118017/20s, after: 70741/12s, silence_duration 55/12s, old_duration: 71/60s
+old_asset_clip fps: 100/6000s, start: 26686/60s, start_frac: 13343/30, end: 26752/60s, end_frac: 6688/15, duration: 11/10
+old_asset_clip duration before: 70741/12s, after: 11/10s
+new_asset_clip duration before: 70741/12s, after: 88372/15s, silence_duration 151/60s, old_duration: 11/10s
+old_asset_clip fps: 100/6000s, start: 26903/60s, start_frac: 26903/60, end: 26992/60s, end_frac: 6748/15, duration: 89/60
+old_asset_clip duration before: 88372/15s, after: 89/60s
+new_asset_clip duration before: 88372/15s, after: 353309/60s, silence_duration 3/2s, old_duration: 89/60s
+old_asset_clip fps: 100/6000s, start: 27082/60s, start_frac: 13541/30, end: 27237/60s, end_frac: 9079/20, duration: 31/12
+old_asset_clip duration before: 353309/60s, after: 31/12s
+new_asset_clip duration before: 353309/60s, after: 88267/15s, silence_duration 43/30s, old_duration: 31/12s
+old_asset_clip fps: 100/6000s, start: 27323/60s, start_frac: 27323/60, end: 27405/60s, end_frac: 1827/4, duration: 41/30
+old_asset_clip duration before: 88267/15s, after: 41/30s
+new_asset_clip duration before: 88267/15s, after: 352957/60s, silence_duration 29/60s, old_duration: 41/30s
+old_asset_clip fps: 100/6000s, start: 27434/60s, start_frac: 13717/30, end: 27513/60s, end_frac: 9171/20, duration: 79/60
+old_asset_clip duration before: 352957/60s, after: 79/60s
+new_asset_clip duration before: 352957/60s, after: 352709/60s, silence_duration 169/60s, old_duration: 79/60s
+old_asset_clip fps: 100/6000s, start: 27682/60s, start_frac: 13841/30, end: 27870/60s, end_frac: 929/2, duration: 47/15
+old_asset_clip duration before: 352709/60s, after: 47/15s
+new_asset_clip duration before: 352709/60s, after: 352367/60s, silence_duration 77/30s, old_duration: 47/15s
+old_asset_clip fps: 100/6000s, start: 28024/60s, start_frac: 7006/15, end: 28088/60s, end_frac: 7022/15, duration: 16/15
+old_asset_clip duration before: 352367/60s, after: 16/15s
+new_asset_clip duration before: 352367/60s, after: 352247/60s, silence_duration 14/15s, old_duration: 16/15s
+old_asset_clip fps: 100/6000s, start: 28144/60s, start_frac: 7036/15, end: 28277/60s, end_frac: 28277/60, duration: 133/60
+old_asset_clip duration before: 352247/60s, after: 133/60s
+new_asset_clip duration before: 352247/60s, after: 87967/15s, silence_duration 41/10s, old_duration: 133/60s
+old_asset_clip fps: 100/6000s, start: 28523/60s, start_frac: 28523/60, end: 28738/60s, end_frac: 14369/30, duration: 43/12
+old_asset_clip duration before: 87967/15s, after: 43/12s
+new_asset_clip duration before: 87967/15s, after: 11721/2s, silence_duration 23/60s, old_duration: 43/12s
+old_asset_clip fps: 100/6000s, start: 28761/60s, start_frac: 9587/20, end: 28953/60s, end_frac: 9651/20, duration: 16/5
+old_asset_clip duration before: 11721/2s, after: 16/5s
+new_asset_clip duration before: 11721/2s, after: 29282/5s, silence_duration 9/10s, old_duration: 16/5s
+old_asset_clip fps: 100/6000s, start: 29007/60s, start_frac: 9669/20, end: 29075/60s, end_frac: 5815/12, duration: 17/15
+old_asset_clip duration before: 29282/5s, after: 17/15s
+new_asset_clip duration before: 29282/5s, after: 116887/20s, silence_duration 131/12s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 29730/60s, start_frac: 991/2, end: 29970/60s, end_frac: 999/2, duration: 4
+old_asset_clip duration before: 116887/20s, after: 4s
+new_asset_clip duration before: 116887/20s, after: 58397/10s, silence_duration 13/20s, old_duration: 4s
+old_asset_clip fps: 100/6000s, start: 30009/60s, start_frac: 10003/20, end: 30067/60s, end_frac: 30067/60, duration: 29/30
+old_asset_clip duration before: 58397/10s, after: 29/30s
+new_asset_clip duration before: 58397/10s, after: 175141/30s, silence_duration 7/10s, old_duration: 29/30s
+old_asset_clip fps: 100/6000s, start: 30109/60s, start_frac: 30109/60, end: 30204/60s, end_frac: 2517/5, duration: 19/12
+old_asset_clip duration before: 175141/30s, after: 19/12s
+new_asset_clip duration before: 175141/30s, after: 35011/6s, silence_duration 77/60s, old_duration: 19/12s
+old_asset_clip fps: 100/6000s, start: 30281/60s, start_frac: 30281/60, end: 30612/60s, end_frac: 2551/5, duration: 331/60
+old_asset_clip duration before: 35011/6s, after: 331/60s
+new_asset_clip duration before: 35011/6s, after: 58291/10s, silence_duration 11/20s, old_duration: 331/60s
+old_asset_clip fps: 100/6000s, start: 30645/60s, start_frac: 2043/4, end: 30793/60s, end_frac: 30793/60, duration: 37/15
+old_asset_clip duration before: 58291/10s, after: 37/15s
+new_asset_clip duration before: 58291/10s, after: 87394/15s, silence_duration 11/30s, old_duration: 37/15s
+old_asset_clip fps: 100/6000s, start: 30815/60s, start_frac: 6163/12, end: 30855/60s, end_frac: 2057/4, duration: 2/3
+old_asset_clip duration before: 87394/15s, after: 2/3s
+new_asset_clip duration before: 87394/15s, after: 116479/20s, silence_duration 33/20s, old_duration: 2/3s
+old_asset_clip fps: 100/6000s, start: 30954/60s, start_frac: 5159/10, end: 31152/60s, end_frac: 2596/5, duration: 33/10
+old_asset_clip duration before: 116479/20s, after: 33/10s
+new_asset_clip duration before: 116479/20s, after: 69839/12s, silence_duration 11/15s, old_duration: 33/10s
+old_asset_clip fps: 100/6000s, start: 31196/60s, start_frac: 7799/15, end: 31258/60s, end_frac: 15629/30, duration: 31/30
+old_asset_clip duration before: 69839/12s, after: 31/30s
+new_asset_clip duration before: 69839/12s, after: 174557/30s, silence_duration 19/60s, old_duration: 31/30s
+old_asset_clip fps: 100/6000s, start: 31277/60s, start_frac: 31277/60, end: 31370/60s, end_frac: 3137/6, duration: 31/20
+old_asset_clip duration before: 174557/30s, after: 31/20s
+new_asset_clip duration before: 174557/30s, after: 34897/6s, silence_duration 17/20s, old_duration: 31/20s
+old_asset_clip fps: 100/6000s, start: 31421/60s, start_frac: 31421/60, end: 31615/60s, end_frac: 6323/12, duration: 97/30
+old_asset_clip duration before: 34897/6s, after: 97/30s
+new_asset_clip duration before: 34897/6s, after: 174367/30s, silence_duration 7/10s, old_duration: 97/30s
+old_asset_clip fps: 100/6000s, start: 31657/60s, start_frac: 31657/60, end: 31756/60s, end_frac: 7939/15, duration: 33/20
+old_asset_clip duration before: 174367/30s, after: 33/20s
+new_asset_clip duration before: 174367/30s, after: 29047/5s, silence_duration 71/60s, old_duration: 33/20s
+old_asset_clip fps: 100/6000s, start: 31827/60s, start_frac: 10609/20, end: 31927/60s, end_frac: 31927/60, duration: 5/3
+old_asset_clip duration before: 29047/5s, after: 5/3s
+new_asset_clip duration before: 29047/5s, after: 174203/30s, silence_duration 29/30s, old_duration: 5/3s
+old_asset_clip fps: 100/6000s, start: 31985/60s, start_frac: 6397/12, end: 32097/60s, end_frac: 10699/20, duration: 28/15
+old_asset_clip duration before: 174203/30s, after: 28/15s
+new_asset_clip duration before: 174203/30s, after: 348181/60s, silence_duration 113/60s, old_duration: 28/15s
+old_asset_clip fps: 100/6000s, start: 32210/60s, start_frac: 3221/6, end: 32420/60s, end_frac: 1621/3, duration: 7/2
+old_asset_clip duration before: 348181/60s, after: 7/2s
+new_asset_clip duration before: 348181/60s, after: 23185/4s, silence_duration 49/15s, old_duration: 7/2s
+old_asset_clip fps: 100/6000s, start: 32616/60s, start_frac: 2718/5, end: 32681/60s, end_frac: 32681/60, duration: 13/12
+old_asset_clip duration before: 23185/4s, after: 13/12s
+new_asset_clip duration before: 23185/4s, after: 173831/30s, silence_duration 4/5s, old_duration: 13/12s
+old_asset_clip fps: 100/6000s, start: 32729/60s, start_frac: 32729/60, end: 32794/60s, end_frac: 16397/30, duration: 13/12
+old_asset_clip duration before: 173831/30s, after: 13/12s
+new_asset_clip duration before: 173831/30s, after: 173683/30s, silence_duration 77/20s, old_duration: 13/12s
+old_asset_clip fps: 100/6000s, start: 33025/60s, start_frac: 6605/12, end: 33204/60s, end_frac: 2767/5, duration: 179/60
+old_asset_clip duration before: 173683/30s, after: 179/60s
+new_asset_clip duration before: 173683/30s, after: 69365/12s, silence_duration 181/30s, old_duration: 179/60s
+old_asset_clip fps: 100/6000s, start: 33566/60s, start_frac: 16783/30, end: 33729/60s, end_frac: 11243/20, duration: 163/60
+old_asset_clip duration before: 69365/12s, after: 163/60s
+new_asset_clip duration before: 69365/12s, after: 115459/20s, silence_duration 19/4s, old_duration: 163/60s
+old_asset_clip fps: 100/6000s, start: 34014/60s, start_frac: 5669/10, end: 34065/60s, end_frac: 2271/4, duration: 17/20
+old_asset_clip duration before: 115459/20s, after: 17/20s
+new_asset_clip duration before: 115459/20s, after: 172909/30s, silence_duration 127/15s, old_duration: 17/20s
+old_asset_clip fps: 100/6000s, start: 34573/60s, start_frac: 34573/60, end: 34783/60s, end_frac: 34783/60, duration: 7/2
+old_asset_clip duration before: 172909/30s, after: 7/2s
+new_asset_clip duration before: 172909/30s, after: 345569/60s, silence_duration 13/20s, old_duration: 7/2s
+old_asset_clip fps: 100/6000s, start: 34822/60s, start_frac: 17411/30, end: 34919/60s, end_frac: 34919/60, duration: 97/60
+old_asset_clip duration before: 345569/60s, after: 97/60s
+new_asset_clip duration before: 345569/60s, after: 34457/6s, silence_duration 451/30s, old_duration: 97/60s
+old_asset_clip fps: 100/6000s, start: 35821/60s, start_frac: 35821/60, end: 35888/60s, end_frac: 8972/15, duration: 67/60
+old_asset_clip duration before: 34457/6s, after: 67/60s
+new_asset_clip duration before: 34457/6s, after: 172117/30s, silence_duration 269/60s, old_duration: 67/60s
+old_asset_clip fps: 100/6000s, start: 36157/60s, start_frac: 36157/60, end: 36352/60s, end_frac: 9088/15, duration: 13/4
+old_asset_clip duration before: 172117/30s, after: 13/4s
+new_asset_clip duration before: 172117/30s, after: 344023/60s, silence_duration 4/15s, old_duration: 13/4s
+old_asset_clip fps: 100/6000s, start: 36368/60s, start_frac: 9092/15, end: 36429/60s, end_frac: 12143/20, duration: 61/60
+old_asset_clip duration before: 344023/60s, after: 61/60s
+new_asset_clip duration before: 344023/60s, after: 85294/15s, silence_duration 1393/30s, old_duration: 61/60s
+old_asset_clip fps: 100/6000s, start: 39215/60s, start_frac: 7843/12, end: 39327/60s, end_frac: 13109/20, duration: 28/15
+old_asset_clip duration before: 85294/15s, after: 28/15s
+new_asset_clip duration before: 85294/15s, after: 170389/30s, silence_duration 143/30s, old_duration: 28/15s
+old_asset_clip fps: 100/6000s, start: 39613/60s, start_frac: 39613/60, end: 39680/60s, end_frac: 1984/3, duration: 67/60
+old_asset_clip duration before: 170389/30s, after: 67/60s
+new_asset_clip duration before: 170389/30s, after: 28391/5s, silence_duration 19/60s, old_duration: 67/60s
+old_asset_clip fps: 100/6000s, start: 39699/60s, start_frac: 13233/20, end: 39770/60s, end_frac: 3977/6, duration: 71/60
+old_asset_clip duration before: 28391/5s, after: 71/60s
+new_asset_clip duration before: 28391/5s, after: 28377/5s, silence_duration 97/60s, old_duration: 71/60s
+old_asset_clip fps: 100/6000s, start: 39867/60s, start_frac: 13289/20, end: 40144/60s, end_frac: 10036/15, duration: 277/60
+old_asset_clip duration before: 28377/5s, after: 277/60s
+new_asset_clip duration before: 28377/5s, after: 340217/60s, silence_duration 1/2s, old_duration: 277/60s
+old_asset_clip fps: 100/6000s, start: 40174/60s, start_frac: 20087/30, end: 40306/60s, end_frac: 20153/30, duration: 11/5
+old_asset_clip duration before: 340217/60s, after: 11/5s
+new_asset_clip duration before: 340217/60s, after: 340043/60s, silence_duration 7/10s, old_duration: 11/5s
+old_asset_clip fps: 100/6000s, start: 40348/60s, start_frac: 10087/15, end: 40452/60s, end_frac: 3371/5, duration: 26/15
+old_asset_clip duration before: 340043/60s, after: 26/15s
+new_asset_clip duration before: 340043/60s, after: 16991/3s, silence_duration 119/60s, old_duration: 26/15s
+old_asset_clip fps: 100/6000s, start: 40571/60s, start_frac: 40571/60, end: 40645/60s, end_frac: 8129/12, duration: 37/30
+old_asset_clip duration before: 16991/3s, after: 37/30s
+new_asset_clip duration before: 16991/3s, after: 84931/15s, silence_duration 11/30s, old_duration: 37/30s
+old_asset_clip fps: 100/6000s, start: 40667/60s, start_frac: 40667/60, end: 40800/60s, end_frac: 680, duration: 133/60
+old_asset_clip duration before: 84931/15s, after: 133/60s
+new_asset_clip duration before: 84931/15s, after: 84892/15s, silence_duration 23/60s, old_duration: 133/60s
+old_asset_clip fps: 100/6000s, start: 40823/60s, start_frac: 40823/60, end: 40967/60s, end_frac: 40967/60, duration: 12/5
+old_asset_clip duration before: 84892/15s, after: 12/5s
+new_asset_clip duration before: 84892/15s, after: 33941/6s, silence_duration 7/30s, old_duration: 12/5s
+old_asset_clip fps: 100/6000s, start: 40981/60s, start_frac: 40981/60, end: 41040/60s, end_frac: 684, duration: 59/60
+old_asset_clip duration before: 33941/6s, after: 59/60s
+new_asset_clip duration before: 33941/6s, after: 339209/60s, silence_duration 71/30s, old_duration: 59/60s
+old_asset_clip fps: 100/6000s, start: 41182/60s, start_frac: 20591/30, end: 41230/60s, end_frac: 4123/6, duration: 4/5
+old_asset_clip duration before: 339209/60s, after: 4/5s
+new_asset_clip duration before: 339209/60s, after: 84779/15s, silence_duration 3/4s, old_duration: 4/5s
+old_asset_clip fps: 100/6000s, start: 41275/60s, start_frac: 8255/12, end: 41338/60s, end_frac: 20669/30, duration: 21/20
+old_asset_clip duration before: 84779/15s, after: 21/20s
+new_asset_clip duration before: 84779/15s, after: 84709/15s, silence_duration 217/60s, old_duration: 21/20s
+old_asset_clip fps: 100/6000s, start: 41555/60s, start_frac: 8311/12, end: 41711/60s, end_frac: 41711/60, duration: 13/5
+old_asset_clip duration before: 84709/15s, after: 13/5s
+new_asset_clip duration before: 84709/15s, after: 338663/60s, silence_duration 17/60s, old_duration: 13/5s
+old_asset_clip fps: 100/6000s, start: 41728/60s, start_frac: 10432/15, end: 41787/60s, end_frac: 13929/20, duration: 59/60
+old_asset_clip duration before: 338663/60s, after: 59/60s
+new_asset_clip duration before: 338663/60s, after: 67711/12s, silence_duration 49/60s, old_duration: 59/60s
+old_asset_clip fps: 100/6000s, start: 41836/60s, start_frac: 10459/15, end: 42015/60s, end_frac: 2801/4, duration: 179/60
+old_asset_clip duration before: 67711/12s, after: 179/60s
+new_asset_clip duration before: 67711/12s, after: 112787/20s, silence_duration 1/4s, old_duration: 179/60s
+old_asset_clip fps: 100/6000s, start: 42030/60s, start_frac: 1401/2, end: 42225/60s, end_frac: 2815/4, duration: 13/4
+old_asset_clip duration before: 112787/20s, after: 13/4s
+new_asset_clip duration before: 112787/20s, after: 56321/10s, silence_duration 4s, old_duration: 13/4s
+old_asset_clip fps: 100/6000s, start: 42465/60s, start_frac: 2831/4, end: 42537/60s, end_frac: 14179/20, duration: 6/5
+old_asset_clip duration before: 56321/10s, after: 6/5s
+new_asset_clip duration before: 56321/10s, after: 112549/20s, silence_duration 69/20s, old_duration: 6/5s
+old_asset_clip fps: 100/6000s, start: 42744/60s, start_frac: 3562/5, end: 42847/60s, end_frac: 42847/60, duration: 103/60
+old_asset_clip duration before: 112549/20s, after: 103/60s
+new_asset_clip duration before: 112549/20s, after: 16876/3s, silence_duration 2/5s, old_duration: 103/60s
+old_asset_clip fps: 100/6000s, start: 42871/60s, start_frac: 42871/60, end: 42947/60s, end_frac: 42947/60, duration: 19/15
+old_asset_clip duration before: 16876/3s, after: 19/15s
+new_asset_clip duration before: 16876/3s, after: 168701/30s, silence_duration 7/10s, old_duration: 19/15s
+old_asset_clip fps: 100/6000s, start: 42989/60s, start_frac: 42989/60, end: 43115/60s, end_frac: 8623/12, duration: 21/10
+old_asset_clip duration before: 168701/30s, after: 21/10s
+new_asset_clip duration before: 168701/30s, after: 112411/20s, silence_duration 43/60s, old_duration: 21/10s
+old_asset_clip fps: 100/6000s, start: 43158/60s, start_frac: 7193/10, end: 43313/60s, end_frac: 43313/60, duration: 31/12
+old_asset_clip duration before: 112411/20s, after: 31/12s
+new_asset_clip duration before: 112411/20s, after: 5614s, silence_duration 119/30s, old_duration: 31/12s
+old_asset_clip fps: 100/6000s, start: 43551/60s, start_frac: 14517/20, end: 43723/60s, end_frac: 43723/60, duration: 43/15
+old_asset_clip duration before: 5614/1s, after: 43/15s
+new_asset_clip duration before: 5614/1s, after: 16829/3s, silence_duration 22/15s, old_duration: 43/15s
+old_asset_clip fps: 100/6000s, start: 43811/60s, start_frac: 43811/60, end: 43947/60s, end_frac: 14649/20, duration: 34/15
+old_asset_clip duration before: 16829/3s, after: 34/15s
+new_asset_clip duration before: 16829/3s, after: 112137/20s, silence_duration 11/20s, old_duration: 34/15s
+old_asset_clip fps: 100/6000s, start: 43980/60s, start_frac: 733, end: 44055/60s, end_frac: 2937/4, duration: 5/4
+old_asset_clip duration before: 112137/20s, after: 5/4s
+new_asset_clip duration before: 112137/20s, after: 335981/60s, silence_duration 71/12s, old_duration: 5/4s
+old_asset_clip fps: 100/6000s, start: 44410/60s, start_frac: 4441/6, end: 44450/60s, end_frac: 4445/6, duration: 2/3
+old_asset_clip duration before: 335981/60s, after: 2/3s
+new_asset_clip duration before: 335981/60s, after: 27973/5s, silence_duration 53/12s, old_duration: 2/3s
+old_asset_clip fps: 100/6000s, start: 44715/60s, start_frac: 2981/4, end: 44797/60s, end_frac: 44797/60, duration: 41/30
+old_asset_clip duration before: 27973/5s, after: 41/30s
+new_asset_clip duration before: 27973/5s, after: 111789/20s, silence_duration 227/60s, old_duration: 41/30s
+old_asset_clip fps: 100/6000s, start: 45024/60s, start_frac: 3752/5, end: 45135/60s, end_frac: 3009/4, duration: 37/20
+old_asset_clip duration before: 111789/20s, after: 37/20s
+new_asset_clip duration before: 111789/20s, after: 111733/20s, silence_duration 19/20s, old_duration: 37/20s
+old_asset_clip fps: 100/6000s, start: 45192/60s, start_frac: 3766/5, end: 45292/60s, end_frac: 11323/15, duration: 5/3
+old_asset_clip duration before: 111733/20s, after: 5/3s
+new_asset_clip duration before: 111733/20s, after: 111643/20s, silence_duration 17/6s, old_duration: 5/3s
+old_asset_clip fps: 100/6000s, start: 45462/60s, start_frac: 7577/10, end: 45605/60s, end_frac: 9121/12, duration: 143/60
+old_asset_clip duration before: 111643/20s, after: 143/60s
+new_asset_clip duration before: 111643/20s, after: 167269/30s, silence_duration 62/15s, old_duration: 143/60s
+old_asset_clip fps: 100/6000s, start: 45853/60s, start_frac: 45853/60, end: 45944/60s, end_frac: 11486/15, duration: 91/60
+old_asset_clip duration before: 167269/30s, after: 91/60s
+new_asset_clip duration before: 167269/30s, after: 66881/12s, silence_duration 7/10s, old_duration: 91/60s
+old_asset_clip fps: 100/6000s, start: 45986/60s, start_frac: 22993/30, end: 46110/60s, end_frac: 1537/2, duration: 31/15
+old_asset_clip duration before: 66881/12s, after: 31/15s
+new_asset_clip duration before: 66881/12s, after: 334231/60s, silence_duration 5/6s, old_duration: 31/15s
+old_asset_clip fps: 100/6000s, start: 46160/60s, start_frac: 2308/3, end: 46259/60s, end_frac: 46259/60, duration: 33/20
+old_asset_clip duration before: 334231/60s, after: 33/20s
+new_asset_clip duration before: 334231/60s, after: 83516/15s, silence_duration 17/15s, old_duration: 33/20s
+old_asset_clip fps: 100/6000s, start: 46327/60s, start_frac: 46327/60, end: 46717/60s, end_frac: 46717/60, duration: 13/2
+old_asset_clip duration before: 83516/15s, after: 13/2s
+new_asset_clip duration before: 83516/15s, after: 5561s, silence_duration 7/30s, old_duration: 13/2s
+old_asset_clip fps: 100/6000s, start: 46731/60s, start_frac: 15577/20, end: 46885/60s, end_frac: 9377/12, duration: 77/30
+old_asset_clip duration before: 5561/1s, after: 77/30s
+new_asset_clip duration before: 5561/1s, after: 5553s, silence_duration 163/30s, old_duration: 77/30s
+old_asset_clip fps: 100/6000s, start: 47211/60s, start_frac: 15737/20, end: 47361/60s, end_frac: 15787/20, duration: 5/2
+old_asset_clip duration before: 5553/1s, after: 5/2s
+new_asset_clip duration before: 5553/1s, after: 33251/6s, silence_duration 26/3s, old_duration: 5/2s
+old_asset_clip fps: 100/6000s, start: 47881/60s, start_frac: 47881/60, end: 48009/60s, end_frac: 16003/20, duration: 32/15
+old_asset_clip duration before: 33251/6s, after: 32/15s
+new_asset_clip duration before: 33251/6s, after: 332231/60s, silence_duration 151/60s, old_duration: 32/15s
+old_asset_clip fps: 100/6000s, start: 48160/60s, start_frac: 2408/3, end: 48401/60s, end_frac: 48401/60, duration: 241/60
+old_asset_clip duration before: 332231/60s, after: 241/60s
+new_asset_clip duration before: 332231/60s, after: 331961/60s, silence_duration 29/60s, old_duration: 241/60s
+old_asset_clip fps: 100/6000s, start: 48430/60s, start_frac: 4843/6, end: 48580/60s, end_frac: 2429/3, duration: 5/2
+old_asset_clip duration before: 331961/60s, after: 5/2s
+new_asset_clip duration before: 331961/60s, after: 110583/20s, silence_duration 31/30s, old_duration: 5/2s
+old_asset_clip fps: 100/6000s, start: 48642/60s, start_frac: 8107/10, end: 48756/60s, end_frac: 4063/5, duration: 19/10
+old_asset_clip duration before: 110583/20s, after: 19/10s
+new_asset_clip duration before: 110583/20s, after: 33133/6s, silence_duration 61/12s, old_duration: 19/10s
+old_asset_clip fps: 100/6000s, start: 49061/60s, start_frac: 49061/60, end: 49282/60s, end_frac: 24641/30, duration: 221/60
+old_asset_clip duration before: 33133/6s, after: 221/60s
+new_asset_clip duration before: 33133/6s, after: 330977/60s, silence_duration 11/5s, old_duration: 221/60s
+old_asset_clip fps: 100/6000s, start: 49414/60s, start_frac: 24707/30, end: 49470/60s, end_frac: 1649/2, duration: 14/15
+old_asset_clip duration before: 330977/60s, after: 14/15s
+new_asset_clip duration before: 330977/60s, after: 21979/4s, silence_duration 103/5s, old_duration: 14/15s
+old_asset_clip fps: 100/6000s, start: 50706/60s, start_frac: 8451/10, end: 50785/60s, end_frac: 10157/12, duration: 79/60
+old_asset_clip duration before: 21979/4s, after: 79/60s
+new_asset_clip duration before: 21979/4s, after: 27461/5s, silence_duration 37/30s, old_duration: 79/60s
+old_asset_clip fps: 100/6000s, start: 50859/60s, start_frac: 16953/20, end: 50963/60s, end_frac: 50963/60, duration: 26/15
+old_asset_clip duration before: 27461/5s, after: 26/15s
+new_asset_clip duration before: 27461/5s, after: 164699/30s, silence_duration 1/2s, old_duration: 26/15s
+old_asset_clip fps: 100/6000s, start: 50993/60s, start_frac: 50993/60, end: 51060/60s, end_frac: 851, duration: 67/60
+old_asset_clip duration before: 164699/30s, after: 67/60s
+new_asset_clip duration before: 164699/30s, after: 10971/2s, silence_duration 67/20s, old_duration: 67/60s
+old_asset_clip fps: 100/6000s, start: 51261/60s, start_frac: 17087/20, end: 51397/60s, end_frac: 51397/60, duration: 34/15
+old_asset_clip duration before: 10971/2s, after: 34/15s
+new_asset_clip duration before: 10971/2s, after: 164489/30s, silence_duration 4/15s, old_duration: 34/15s
+old_asset_clip fps: 100/6000s, start: 51413/60s, start_frac: 51413/60, end: 51518/60s, end_frac: 25759/30, duration: 7/4
+old_asset_clip duration before: 164489/30s, after: 7/4s
+new_asset_clip duration before: 164489/30s, after: 82208/15s, silence_duration 41/60s, old_duration: 7/4s
+old_asset_clip fps: 100/6000s, start: 51559/60s, start_frac: 51559/60, end: 51613/60s, end_frac: 51613/60, duration: 9/10
+old_asset_clip duration before: 82208/15s, after: 9/10s
+new_asset_clip duration before: 82208/15s, after: 162119/30s, silence_duration 227/3s, old_duration: 9/10s
+old_asset_clip fps: 100/6000s, start: 56153/60s, start_frac: 56153/60, end: 56300/60s, end_frac: 2815/3, duration: 49/20
+old_asset_clip duration before: 162119/30s, after: 49/20s
+new_asset_clip duration before: 162119/30s, after: 108023/20s, silence_duration 11/30s, old_duration: 49/20s
+old_asset_clip fps: 100/6000s, start: 56322/60s, start_frac: 9387/10, end: 56572/60s, end_frac: 14143/15, duration: 25/6
+old_asset_clip duration before: 108023/20s, after: 25/6s
+new_asset_clip duration before: 108023/20s, after: 161873/30s, silence_duration 73/60s, old_duration: 25/6s
+old_asset_clip fps: 100/6000s, start: 56645/60s, start_frac: 11329/12, end: 56716/60s, end_frac: 14179/15, duration: 71/60
+old_asset_clip duration before: 161873/30s, after: 71/60s
+new_asset_clip duration before: 161873/30s, after: 64729/12s, silence_duration 1/2s, old_duration: 71/60s
+old_asset_clip fps: 100/6000s, start: 56746/60s, start_frac: 28373/30, end: 56802/60s, end_frac: 9467/10, duration: 14/15
+old_asset_clip duration before: 64729/12s, after: 14/15s
+new_asset_clip duration before: 64729/12s, after: 32351/6s, silence_duration 79/60s, old_duration: 14/15s
+old_asset_clip fps: 100/6000s, start: 56881/60s, start_frac: 56881/60, end: 57062/60s, end_frac: 28531/30, duration: 181/60
+old_asset_clip duration before: 32351/6s, after: 181/60s
+new_asset_clip duration before: 32351/6s, after: 161627/30s, silence_duration 5/4s, old_duration: 181/60s
+old_asset_clip fps: 100/6000s, start: 57137/60s, start_frac: 57137/60, end: 57195/60s, end_frac: 3813/4, duration: 29/30
+old_asset_clip duration before: 161627/30s, after: 29/30s
+new_asset_clip duration before: 161627/30s, after: 107691/20s, silence_duration 41/20s, old_duration: 29/30s
+old_asset_clip fps: 100/6000s, start: 57318/60s, start_frac: 9553/10, end: 57430/60s, end_frac: 5743/6, duration: 28/15
+old_asset_clip duration before: 107691/20s, after: 28/15s
+new_asset_clip duration before: 107691/20s, after: 322889/60s, silence_duration 6/5s, old_duration: 28/15s
+old_asset_clip fps: 100/6000s, start: 57502/60s, start_frac: 28751/30, end: 57585/60s, end_frac: 3839/4, duration: 83/60
+old_asset_clip duration before: 322889/60s, after: 83/60s
+new_asset_clip duration before: 322889/60s, after: 322171/60s, silence_duration 127/12s, old_duration: 83/60s
+old_asset_clip fps: 100/6000s, start: 58220/60s, start_frac: 2911/3, end: 58339/60s, end_frac: 58339/60, duration: 119/60
+old_asset_clip duration before: 322171/60s, after: 119/60s
+new_asset_clip duration before: 322171/60s, after: 321857/60s, silence_duration 13/4s, old_duration: 119/60s
+old_asset_clip fps: 100/6000s, start: 58534/60s, start_frac: 29267/30, end: 58577/60s, end_frac: 58577/60, duration: 43/60
+old_asset_clip duration before: 321857/60s, after: 43/60s
+new_asset_clip duration before: 321857/60s, after: 160861/30s, silence_duration 23/15s, old_duration: 43/60s
+old_asset_clip fps: 100/6000s, start: 58669/60s, start_frac: 58669/60, end: 58799/60s, end_frac: 58799/60, duration: 13/6
+old_asset_clip duration before: 160861/30s, after: 13/6s
+new_asset_clip duration before: 160861/30s, after: 321559/60s, silence_duration 11/20s, old_duration: 13/6s
+old_asset_clip fps: 100/6000s, start: 58832/60s, start_frac: 14708/15, end: 59223/60s, end_frac: 19741/20, duration: 391/60
+old_asset_clip duration before: 321559/60s, after: 391/60s
+new_asset_clip duration before: 321559/60s, after: 321139/60s, silence_duration 29/60s, old_duration: 391/60s
+old_asset_clip fps: 100/6000s, start: 59252/60s, start_frac: 14813/15, end: 59449/60s, end_frac: 59449/60, duration: 197/60
+old_asset_clip duration before: 321139/60s, after: 197/60s
+new_asset_clip duration before: 321139/60s, after: 320651/60s, silence_duration 97/20s, old_duration: 197/60s
+old_asset_clip fps: 100/6000s, start: 59740/60s, start_frac: 2987/3, end: 59807/60s, end_frac: 59807/60, duration: 67/60
+old_asset_clip duration before: 320651/60s, after: 67/60s
+new_asset_clip duration before: 320651/60s, after: 80137/15s, silence_duration 3/5s, old_duration: 67/60s
+old_asset_clip fps: 100/6000s, start: 59843/60s, start_frac: 59843/60, end: 59915/60s, end_frac: 11983/12, duration: 6/5
+old_asset_clip duration before: 80137/15s, after: 6/5s
+new_asset_clip duration before: 80137/15s, after: 21341/4s, silence_duration 361/60s, old_duration: 6/5s
+old_asset_clip fps: 100/6000s, start: 60276/60s, start_frac: 5023/5, end: 60326/60s, end_frac: 30163/30, duration: 5/6
+old_asset_clip duration before: 21341/4s, after: 5/6s
+new_asset_clip duration before: 21341/4s, after: 160009/30s, silence_duration 47/60s, old_duration: 5/6s
+old_asset_clip fps: 100/6000s, start: 60373/60s, start_frac: 60373/60, end: 60413/60s, end_frac: 60413/60, duration: 2/3
+old_asset_clip duration before: 160009/30s, after: 2/3s
+new_asset_clip duration before: 160009/30s, after: 53249/10s, silence_duration 121/15s, old_duration: 2/3s
+old_asset_clip fps: 100/6000s, start: 60897/60s, start_frac: 20299/20, end: 61069/60s, end_frac: 61069/60, duration: 43/15
+old_asset_clip duration before: 53249/10s, after: 43/15s
+new_asset_clip duration before: 53249/10s, after: 26568/5s, silence_duration 253/30s, old_duration: 43/15s
+old_asset_clip fps: 100/6000s, start: 61575/60s, start_frac: 4105/4, end: 61714/60s, end_frac: 30857/30, duration: 139/60
+old_asset_clip duration before: 26568/5s, after: 139/60s
+new_asset_clip duration before: 26568/5s, after: 159263/30s, silence_duration 151/60s, old_duration: 139/60s
+old_asset_clip fps: 100/6000s, start: 61865/60s, start_frac: 12373/12, end: 61987/60s, end_frac: 61987/60, duration: 61/30
+old_asset_clip duration before: 159263/30s, after: 61/30s
+new_asset_clip duration before: 159263/30s, after: 53063/10s, silence_duration 13/30s, old_duration: 61/30s
+old_asset_clip fps: 100/6000s, start: 62013/60s, start_frac: 20671/20, end: 62139/60s, end_frac: 20713/20, duration: 21/10
+old_asset_clip duration before: 53063/10s, after: 21/10s
+new_asset_clip duration before: 53063/10s, after: 21207/4s, silence_duration 49/20s, old_duration: 21/10s
+old_asset_clip fps: 100/6000s, start: 62286/60s, start_frac: 10381/10, end: 62354/60s, end_frac: 31177/30, duration: 17/15
+old_asset_clip duration before: 21207/4s, after: 17/15s
+new_asset_clip duration before: 21207/4s, after: 317573/60s, silence_duration 116/15s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 62818/60s, start_frac: 31409/30, end: 62889/60s, end_frac: 20963/20, duration: 71/60
+old_asset_clip duration before: 317573/60s, after: 71/60s
+new_asset_clip duration before: 317573/60s, after: 15866/3s, silence_duration 91/30s, old_duration: 71/60s
+old_asset_clip fps: 100/6000s, start: 63071/60s, start_frac: 63071/60, end: 63153/60s, end_frac: 21051/20, duration: 41/30
+old_asset_clip duration before: 15866/3s, after: 41/30s
+new_asset_clip duration before: 15866/3s, after: 316763/60s, silence_duration 95/12s, old_duration: 41/30s
+old_asset_clip fps: 100/6000s, start: 63628/60s, start_frac: 15907/15, end: 63784/60s, end_frac: 15946/15, duration: 13/5
+old_asset_clip duration before: 316763/60s, after: 13/5s
+new_asset_clip duration before: 316763/60s, after: 52759/10s, silence_duration 53/60s, old_duration: 13/5s
+old_asset_clip fps: 100/6000s, start: 63837/60s, start_frac: 21279/20, end: 63948/60s, end_frac: 5329/5, duration: 37/20
+old_asset_clip duration before: 52759/10s, after: 37/20s
+new_asset_clip duration before: 52759/10s, after: 52731/10s, silence_duration 19/20s, old_duration: 37/20s
+old_asset_clip fps: 100/6000s, start: 64005/60s, start_frac: 4267/4, end: 64194/60s, end_frac: 10699/10, duration: 63/20
+old_asset_clip duration before: 52731/10s, after: 63/20s
+new_asset_clip duration before: 52731/10s, after: 63229/12s, silence_duration 13/15s, old_duration: 63/20s
+old_asset_clip fps: 100/6000s, start: 64246/60s, start_frac: 32123/30, end: 64318/60s, end_frac: 32159/30, duration: 6/5
+old_asset_clip duration before: 63229/12s, after: 6/5s
+new_asset_clip duration before: 63229/12s, after: 158003/30s, silence_duration 67/60s, old_duration: 6/5s
+old_asset_clip fps: 100/6000s, start: 64385/60s, start_frac: 12877/12, end: 64542/60s, end_frac: 10757/10, duration: 157/60
+old_asset_clip duration before: 158003/30s, after: 157/60s
+new_asset_clip duration before: 158003/30s, after: 105193/20s, silence_duration 9/2s, old_duration: 157/60s
+old_asset_clip fps: 100/6000s, start: 64812/60s, start_frac: 5401/5, end: 64863/60s, end_frac: 21621/20, duration: 17/20
+old_asset_clip duration before: 105193/20s, after: 17/20s
+new_asset_clip duration before: 105193/20s, after: 105109/20s, silence_duration 67/20s, old_duration: 17/20s
+old_asset_clip fps: 100/6000s, start: 65064/60s, start_frac: 5422/5, end: 65126/60s, end_frac: 32563/30, duration: 31/30
+old_asset_clip duration before: 105109/20s, after: 31/30s
+new_asset_clip duration before: 105109/20s, after: 26251/5s, silence_duration 253/60s, old_duration: 31/30s
+old_asset_clip fps: 100/6000s, start: 65379/60s, start_frac: 21793/20, end: 65552/60s, end_frac: 16388/15, duration: 173/60
+old_asset_clip duration before: 26251/5s, after: 173/60s
+new_asset_clip duration before: 26251/5s, after: 104937/20s, silence_duration 7/15s, old_duration: 173/60s
+old_asset_clip fps: 100/6000s, start: 65580/60s, start_frac: 1093, end: 65634/60s, end_frac: 10939/10, duration: 9/10
+old_asset_clip duration before: 104937/20s, after: 9/10s
+new_asset_clip duration before: 104937/20s, after: 15736/3s, silence_duration 37/60s, old_duration: 9/10s
+old_asset_clip fps: 100/6000s, start: 65671/60s, start_frac: 65671/60, end: 65893/60s, end_frac: 65893/60, duration: 37/10
+old_asset_clip duration before: 15736/3s, after: 37/10s
+new_asset_clip duration before: 15736/3s, after: 52199/10s, silence_duration 326/15s, old_duration: 37/10s
+old_asset_clip fps: 100/6000s, start: 67197/60s, start_frac: 22399/20, end: 67252/60s, end_frac: 16813/15, duration: 11/12
+old_asset_clip duration before: 52199/10s, after: 11/12s
+new_asset_clip duration before: 52199/10s, after: 156497/30s, silence_duration 29/12s, old_duration: 11/12s
+old_asset_clip fps: 100/6000s, start: 67397/60s, start_frac: 67397/60, end: 67465/60s, end_frac: 13493/12, duration: 17/15
+old_asset_clip duration before: 156497/30s, after: 17/15s
+new_asset_clip duration before: 156497/30s, after: 104301/20s, silence_duration 23/60s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 67488/60s, start_frac: 5624/5, end: 67539/60s, end_frac: 22513/20, duration: 17/20
+old_asset_clip duration before: 104301/20s, after: 17/20s
+new_asset_clip duration before: 104301/20s, after: 52137/10s, silence_duration 1/2s, old_duration: 17/20s
+old_asset_clip fps: 100/6000s, start: 67569/60s, start_frac: 22523/20, end: 67779/60s, end_frac: 22593/20, duration: 7/2
+old_asset_clip duration before: 52137/10s, after: 7/2s
+new_asset_clip duration before: 52137/10s, after: 156289/30s, silence_duration 17/30s, old_duration: 7/2s
+old_asset_clip fps: 100/6000s, start: 67813/60s, start_frac: 67813/60, end: 67974/60s, end_frac: 11329/10, duration: 161/60
+old_asset_clip duration before: 156289/30s, after: 161/60s
+new_asset_clip duration before: 156289/30s, after: 156199/30s, silence_duration 19/60s, old_duration: 161/60s
+old_asset_clip fps: 100/6000s, start: 67993/60s, start_frac: 67993/60, end: 68111/60s, end_frac: 68111/60, duration: 59/30
+old_asset_clip duration before: 156199/30s, after: 59/30s
+new_asset_clip duration before: 156199/30s, after: 26022/5s, silence_duration 4/15s, old_duration: 59/30s
+old_asset_clip fps: 100/6000s, start: 68127/60s, start_frac: 22709/20, end: 68181/60s, end_frac: 22727/20, duration: 9/10
+old_asset_clip duration before: 26022/5s, after: 9/10s
+new_asset_clip duration before: 26022/5s, after: 78044/15s, silence_duration 17/30s, old_duration: 9/10s
+old_asset_clip fps: 100/6000s, start: 68215/60s, start_frac: 13643/12, end: 68335/60s, end_frac: 13667/12, duration: 2
+old_asset_clip duration before: 78044/15s, after: 2s
+new_asset_clip duration before: 78044/15s, after: 312001/60s, silence_duration 11/12s, old_duration: 2s
+old_asset_clip fps: 100/6000s, start: 68390/60s, start_frac: 6839/6, end: 68514/60s, end_frac: 11419/10, duration: 31/15
+old_asset_clip duration before: 312001/60s, after: 31/15s
+new_asset_clip duration before: 312001/60s, after: 103953/20s, silence_duration 3/10s, old_duration: 31/15s
+old_asset_clip fps: 100/6000s, start: 68532/60s, start_frac: 5711/5, end: 68709/60s, end_frac: 22903/20, duration: 59/20
+old_asset_clip duration before: 103953/20s, after: 59/20s
+new_asset_clip duration before: 103953/20s, after: 311563/60s, silence_duration 119/60s, old_duration: 59/20s
+old_asset_clip fps: 100/6000s, start: 68828/60s, start_frac: 17207/15, end: 68866/60s, end_frac: 34433/30, duration: 19/30
+old_asset_clip duration before: 311563/60s, after: 19/30s
+new_asset_clip duration before: 311563/60s, after: 155707/30s, silence_duration 37/20s, old_duration: 19/30s
+old_asset_clip fps: 100/6000s, start: 68977/60s, start_frac: 68977/60, end: 69039/60s, end_frac: 23013/20, duration: 31/30
+old_asset_clip duration before: 155707/30s, after: 31/30s
+new_asset_clip duration before: 155707/30s, after: 25943/5s, silence_duration 3/5s, old_duration: 31/30s
+old_asset_clip fps: 100/6000s, start: 69075/60s, start_frac: 4605/4, end: 69220/60s, end_frac: 3461/3, duration: 29/12
+old_asset_clip duration before: 25943/5s, after: 29/12s
+new_asset_clip duration before: 25943/5s, after: 311123/60s, silence_duration 4/5s, old_duration: 29/12s
+old_asset_clip fps: 100/6000s, start: 69268/60s, start_frac: 17317/15, end: 69427/60s, end_frac: 69427/60, duration: 53/20
+old_asset_clip duration before: 311123/60s, after: 53/20s
+new_asset_clip duration before: 311123/60s, after: 310793/60s, silence_duration 57/20s, old_duration: 53/20s
+old_asset_clip fps: 100/6000s, start: 69598/60s, start_frac: 34799/30, end: 69686/60s, end_frac: 34843/30, duration: 22/15
+old_asset_clip duration before: 310793/60s, after: 22/15s
+new_asset_clip duration before: 310793/60s, after: 77651/15s, silence_duration 101/60s, old_duration: 22/15s
+old_asset_clip fps: 100/6000s, start: 69787/60s, start_frac: 69787/60, end: 69827/60s, end_frac: 69827/60, duration: 2/3
+old_asset_clip duration before: 77651/15s, after: 2/3s
+new_asset_clip duration before: 77651/15s, after: 155029/30s, silence_duration 253/30s, old_duration: 2/3s
+old_asset_clip fps: 100/6000s, start: 70333/60s, start_frac: 70333/60, end: 70471/60s, end_frac: 70471/60, duration: 23/10
+old_asset_clip duration before: 155029/30s, after: 23/10s
+new_asset_clip duration before: 155029/30s, after: 61963/12s, silence_duration 7/4s, old_duration: 23/10s
+old_asset_clip fps: 100/6000s, start: 70576/60s, start_frac: 17644/15, end: 70678/60s, end_frac: 35339/30, duration: 17/10
+old_asset_clip duration before: 61963/12s, after: 17/10s
+new_asset_clip duration before: 61963/12s, after: 61939/12s, silence_duration 3/10s, old_duration: 17/10s
+old_asset_clip fps: 100/6000s, start: 70696/60s, start_frac: 17674/15, end: 70749/60s, end_frac: 23583/20, duration: 53/60
+old_asset_clip duration before: 61939/12s, after: 53/60s
+new_asset_clip duration before: 61939/12s, after: 61921/12s, silence_duration 37/60s, old_duration: 53/60s
+old_asset_clip fps: 100/6000s, start: 70786/60s, start_frac: 35393/30, end: 70856/60s, end_frac: 17714/15, duration: 7/6
+old_asset_clip duration before: 61921/12s, after: 7/6s
+new_asset_clip duration before: 61921/12s, after: 309523/60s, silence_duration 1/5s, old_duration: 7/6s
+old_asset_clip fps: 100/6000s, start: 70868/60s, start_frac: 17717/15, end: 70941/60s, end_frac: 23647/20, duration: 73/60
+old_asset_clip duration before: 309523/60s, after: 73/60s
+new_asset_clip duration before: 309523/60s, after: 154669/30s, silence_duration 28/15s, old_duration: 73/60s
+old_asset_clip fps: 100/6000s, start: 71053/60s, start_frac: 71053/60, end: 71190/60s, end_frac: 2373/2, duration: 137/60
+old_asset_clip duration before: 154669/30s, after: 137/60s
+new_asset_clip duration before: 154669/30s, after: 154559/30s, silence_duration 83/60s, old_duration: 137/60s
+old_asset_clip fps: 100/6000s, start: 71273/60s, start_frac: 71273/60, end: 71490/60s, end_frac: 2383/2, duration: 217/60
+old_asset_clip duration before: 154559/30s, after: 217/60s
+new_asset_clip duration before: 154559/30s, after: 102957/20s, silence_duration 1/2s, old_duration: 217/60s
+old_asset_clip fps: 100/6000s, start: 71520/60s, start_frac: 1192, end: 71614/60s, end_frac: 35807/30, duration: 47/30
+old_asset_clip duration before: 102957/20s, after: 47/30s
+new_asset_clip duration before: 102957/20s, after: 154381/30s, silence_duration 1/4s, old_duration: 47/30s
+old_asset_clip fps: 100/6000s, start: 71629/60s, start_frac: 71629/60, end: 71750/60s, end_frac: 7175/6, duration: 121/60
+old_asset_clip duration before: 154381/30s, after: 121/60s
+new_asset_clip duration before: 154381/30s, after: 102869/20s, silence_duration 17/30s, old_duration: 121/60s
+old_asset_clip fps: 100/6000s, start: 71784/60s, start_frac: 5982/5, end: 71873/60s, end_frac: 71873/60, duration: 89/60
+old_asset_clip duration before: 102869/20s, after: 89/60s
+new_asset_clip duration before: 102869/20s, after: 308503/60s, silence_duration 1/4s, old_duration: 89/60s
+old_asset_clip fps: 100/6000s, start: 71888/60s, start_frac: 17972/15, end: 72024/60s, end_frac: 6002/5, duration: 34/15
+old_asset_clip duration before: 308503/60s, after: 34/15s
+new_asset_clip duration before: 308503/60s, after: 102757/20s, silence_duration 8/5s, old_duration: 34/15s
+old_asset_clip fps: 100/6000s, start: 72120/60s, start_frac: 1202, end: 72487/60s, end_frac: 72487/60, duration: 367/60
+old_asset_clip duration before: 102757/20s, after: 367/60s
+new_asset_clip duration before: 102757/20s, after: 51293/10s, silence_duration 73/30s, old_duration: 367/60s
+old_asset_clip fps: 100/6000s, start: 72633/60s, start_frac: 24211/20, end: 72710/60s, end_frac: 7271/6, duration: 77/60
+old_asset_clip duration before: 51293/10s, after: 77/60s
+new_asset_clip duration before: 51293/10s, after: 76916/15s, silence_duration 17/60s, old_duration: 77/60s
+old_asset_clip fps: 100/6000s, start: 72727/60s, start_frac: 72727/60, end: 72795/60s, end_frac: 4853/4, duration: 17/15
+old_asset_clip duration before: 76916/15s, after: 17/15s
+new_asset_clip duration before: 76916/15s, after: 102523/20s, silence_duration 9/20s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 72822/60s, start_frac: 12137/10, end: 72975/60s, end_frac: 4865/4, duration: 51/20
+old_asset_clip duration before: 102523/20s, after: 51/20s
+new_asset_clip duration before: 102523/20s, after: 102463/20s, silence_duration 9/20s, old_duration: 51/20s
+old_asset_clip fps: 100/6000s, start: 73002/60s, start_frac: 12167/10, end: 73185/60s, end_frac: 4879/4, duration: 61/20
+old_asset_clip duration before: 102463/20s, after: 61/20s
+new_asset_clip duration before: 102463/20s, after: 102397/20s, silence_duration 1/4s, old_duration: 61/20s
+old_asset_clip fps: 100/6000s, start: 73200/60s, start_frac: 1220, end: 73275/60s, end_frac: 4885/4, duration: 5/4
+old_asset_clip duration before: 102397/20s, after: 5/4s
+new_asset_clip duration before: 102397/20s, after: 5117s, silence_duration 8/5s, old_duration: 5/4s
+old_asset_clip fps: 100/6000s, start: 73371/60s, start_frac: 24457/20, end: 73564/60s, end_frac: 18391/15, duration: 193/60
+old_asset_clip duration before: 5117/1s, after: 193/60s
+new_asset_clip duration before: 5117/1s, after: 76688/15s, silence_duration 5/4s, old_duration: 193/60s
+old_asset_clip fps: 100/6000s, start: 73639/60s, start_frac: 73639/60, end: 73745/60s, end_frac: 14749/12, duration: 53/30
+old_asset_clip duration before: 76688/15s, after: 53/30s
+new_asset_clip duration before: 76688/15s, after: 76639/15s, silence_duration 3/2s, old_duration: 53/30s
+old_asset_clip fps: 100/6000s, start: 73835/60s, start_frac: 14767/12, end: 74422/60s, end_frac: 37211/30, duration: 587/60
+old_asset_clip duration before: 76639/15s, after: 587/60s
+new_asset_clip duration before: 76639/15s, after: 15296/3s, silence_duration 49/60s, old_duration: 587/60s
+old_asset_clip fps: 100/6000s, start: 74471/60s, start_frac: 74471/60, end: 74748/60s, end_frac: 6229/5, duration: 277/60
+old_asset_clip duration before: 15296/3s, after: 277/60s
+new_asset_clip duration before: 15296/3s, after: 101877/20s, silence_duration 1/5s, old_duration: 277/60s
+old_asset_clip fps: 100/6000s, start: 74760/60s, start_frac: 1246, end: 74917/60s, end_frac: 74917/60, duration: 157/60
+old_asset_clip duration before: 101877/20s, after: 157/60s
+new_asset_clip duration before: 101877/20s, after: 50779/10s, silence_duration 40/3s, old_duration: 157/60s
+old_asset_clip fps: 100/6000s, start: 75717/60s, start_frac: 25239/20, end: 75782/60s, end_frac: 37891/30, duration: 13/12
+old_asset_clip duration before: 50779/10s, after: 13/12s
+new_asset_clip duration before: 50779/10s, after: 76031/15s, silence_duration 97/12s, old_duration: 13/12s
+old_asset_clip fps: 100/6000s, start: 76267/60s, start_frac: 76267/60, end: 76619/60s, end_frac: 76619/60, duration: 88/15
+old_asset_clip duration before: 76031/15s, after: 88/15s
+new_asset_clip duration before: 76031/15s, after: 30361/6s, silence_duration 27/10s, old_duration: 88/15s
+old_asset_clip fps: 100/6000s, start: 76781/60s, start_frac: 76781/60, end: 76974/60s, end_frac: 12829/10, duration: 193/60
+old_asset_clip duration before: 30361/6s, after: 193/60s
+new_asset_clip duration before: 30361/6s, after: 15170/3s, silence_duration 17/60s, old_duration: 193/60s
+old_asset_clip fps: 100/6000s, start: 76991/60s, start_frac: 76991/60, end: 77106/60s, end_frac: 12851/10, duration: 23/12
+old_asset_clip duration before: 15170/3s, after: 23/12s
+new_asset_clip duration before: 15170/3s, after: 75814/15s, silence_duration 29/60s, old_duration: 23/12s
+old_asset_clip fps: 100/6000s, start: 77135/60s, start_frac: 15427/12, end: 77247/60s, end_frac: 25749/20, duration: 28/15
+old_asset_clip duration before: 75814/15s, after: 28/15s
+new_asset_clip duration before: 75814/15s, after: 151561/30s, silence_duration 11/30s, old_duration: 28/15s
+old_asset_clip fps: 100/6000s, start: 77269/60s, start_frac: 77269/60, end: 77565/60s, end_frac: 5171/4, duration: 74/15
+old_asset_clip duration before: 151561/30s, after: 74/15s
+new_asset_clip duration before: 151561/30s, after: 302759/60s, silence_duration 67/60s, old_duration: 74/15s
+old_asset_clip fps: 100/6000s, start: 77632/60s, start_frac: 19408/15, end: 77690/60s, end_frac: 7769/6, duration: 29/30
+old_asset_clip duration before: 302759/60s, after: 29/30s
+new_asset_clip duration before: 302759/60s, after: 15133/3s, silence_duration 41/60s, old_duration: 29/30s
+old_asset_clip fps: 100/6000s, start: 77731/60s, start_frac: 77731/60, end: 77784/60s, end_frac: 6482/5, duration: 53/60
+old_asset_clip duration before: 15133/3s, after: 53/60s
+new_asset_clip duration before: 15133/3s, after: 75643/15s, silence_duration 7/12s, old_duration: 53/60s
+old_asset_clip fps: 100/6000s, start: 77819/60s, start_frac: 77819/60, end: 77996/60s, end_frac: 19499/15, duration: 59/20
+old_asset_clip duration before: 75643/15s, after: 59/20s
+new_asset_clip duration before: 75643/15s, after: 100793/20s, silence_duration 4/15s, old_duration: 59/20s
+old_asset_clip fps: 100/6000s, start: 78012/60s, start_frac: 6501/5, end: 78317/60s, end_frac: 78317/60, duration: 61/12
+old_asset_clip duration before: 100793/20s, after: 61/12s
+new_asset_clip duration before: 100793/20s, after: 302039/60s, silence_duration 7/12s, old_duration: 61/12s
+old_asset_clip fps: 100/6000s, start: 78352/60s, start_frac: 19588/15, end: 78456/60s, end_frac: 6538/5, duration: 26/15
+old_asset_clip duration before: 302039/60s, after: 26/15s
+new_asset_clip duration before: 302039/60s, after: 75479/15s, silence_duration 19/60s, old_duration: 26/15s
+old_asset_clip fps: 100/6000s, start: 78475/60s, start_frac: 15695/12, end: 78657/60s, end_frac: 26219/20, duration: 91/30
+old_asset_clip duration before: 75479/15s, after: 91/30s
+new_asset_clip duration before: 75479/15s, after: 301547/60s, silence_duration 187/60s, old_duration: 91/30s
+old_asset_clip fps: 100/6000s, start: 78844/60s, start_frac: 19711/15, end: 78957/60s, end_frac: 26319/20, duration: 113/60
+old_asset_clip duration before: 301547/60s, after: 113/60s
+new_asset_clip duration before: 301547/60s, after: 100259/20s, silence_duration 219/20s, old_duration: 113/60s
+old_asset_clip fps: 100/6000s, start: 79614/60s, start_frac: 13269/10, end: 79682/60s, end_frac: 39841/30, duration: 17/15
+old_asset_clip duration before: 100259/20s, after: 17/15s
+new_asset_clip duration before: 100259/20s, after: 60121/12s, silence_duration 26/15s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 79786/60s, start_frac: 39893/30, end: 79876/60s, end_frac: 19969/15, duration: 3/2
+old_asset_clip duration before: 60121/12s, after: 3/2s
+new_asset_clip duration before: 60121/12s, after: 300253/60s, silence_duration 131/30s, old_duration: 3/2s
+old_asset_clip fps: 100/6000s, start: 80138/60s, start_frac: 40069/30, end: 80238/60s, end_frac: 13373/10, duration: 5/3
+old_asset_clip duration before: 300253/60s, after: 5/3s
+new_asset_clip duration before: 300253/60s, after: 75011/15s, silence_duration 109/60s, old_duration: 5/3s
+old_asset_clip fps: 100/6000s, start: 80347/60s, start_frac: 80347/60, end: 80415/60s, end_frac: 5361/4, duration: 17/15
+old_asset_clip duration before: 75011/15s, after: 17/15s
+new_asset_clip duration before: 75011/15s, after: 299909/60s, silence_duration 67/60s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 80482/60s, start_frac: 40241/30, end: 80641/60s, end_frac: 80641/60, duration: 53/20
+old_asset_clip duration before: 299909/60s, after: 53/20s
+new_asset_clip duration before: 299909/60s, after: 99911/20s, silence_duration 17/60s, old_duration: 53/20s
+old_asset_clip fps: 100/6000s, start: 80658/60s, start_frac: 13443/10, end: 80722/60s, end_frac: 40361/30, duration: 16/15
+old_asset_clip duration before: 99911/20s, after: 16/15s
+new_asset_clip duration before: 99911/20s, after: 4994s, silence_duration 29/60s, old_duration: 16/15s
+old_asset_clip fps: 100/6000s, start: 80751/60s, start_frac: 26917/20, end: 80834/60s, end_frac: 40417/30, duration: 83/60
+old_asset_clip duration before: 4994/1s, after: 83/60s
+new_asset_clip duration before: 4994/1s, after: 299023/60s, silence_duration 89/10s, old_duration: 83/60s
+old_asset_clip fps: 100/6000s, start: 81368/60s, start_frac: 20342/15, end: 81466/60s, end_frac: 40733/30, duration: 49/30
+old_asset_clip duration before: 299023/60s, after: 49/30s
+new_asset_clip duration before: 299023/60s, after: 24897/5s, silence_duration 161/60s, old_duration: 49/30s
+old_asset_clip fps: 100/6000s, start: 81627/60s, start_frac: 27209/20, end: 81724/60s, end_frac: 20431/15, duration: 97/60
+old_asset_clip duration before: 24897/5s, after: 97/60s
+new_asset_clip duration before: 24897/5s, after: 74623/15s, silence_duration 35/12s, old_duration: 97/60s
+old_asset_clip fps: 100/6000s, start: 81899/60s, start_frac: 81899/60, end: 81955/60s, end_frac: 16391/12, duration: 14/15
+old_asset_clip duration before: 74623/15s, after: 14/15s
+new_asset_clip duration before: 74623/15s, after: 99447/20s, silence_duration 19/12s, old_duration: 14/15s
+old_asset_clip fps: 100/6000s, start: 82050/60s, start_frac: 2735/2, end: 82293/60s, end_frac: 27431/20, duration: 81/20
+old_asset_clip duration before: 99447/20s, after: 81/20s
+new_asset_clip duration before: 99447/20s, after: 99329/20s, silence_duration 37/20s, old_duration: 81/20s
+old_asset_clip fps: 100/6000s, start: 82404/60s, start_frac: 6867/5, end: 82467/60s, end_frac: 27489/20, duration: 21/20
+old_asset_clip duration before: 99329/20s, after: 21/20s
+new_asset_clip duration before: 99329/20s, after: 4965s, silence_duration 2/5s, old_duration: 21/20s
+old_asset_clip fps: 100/6000s, start: 82491/60s, start_frac: 27497/20, end: 83011/60s, end_frac: 83011/60, duration: 26/3
+old_asset_clip duration before: 4965/1s, after: 26/3s
+new_asset_clip duration before: 4965/1s, after: 74336/15s, silence_duration 3/5s, old_duration: 26/3s
+old_asset_clip fps: 100/6000s, start: 83047/60s, start_frac: 83047/60, end: 83148/60s, end_frac: 6929/5, duration: 101/60
+old_asset_clip duration before: 74336/15s, after: 101/60s
+new_asset_clip duration before: 74336/15s, after: 297169/60s, silence_duration 37/30s, old_duration: 101/60s
+old_asset_clip fps: 100/6000s, start: 83222/60s, start_frac: 41611/30, end: 83311/60s, end_frac: 83311/60, duration: 89/60
+old_asset_clip duration before: 297169/60s, after: 89/60s
+new_asset_clip duration before: 297169/60s, after: 99017/20s, silence_duration 29/60s, old_duration: 89/60s
+old_asset_clip fps: 100/6000s, start: 83340/60s, start_frac: 1389, end: 83432/60s, end_frac: 20858/15, duration: 23/15
+old_asset_clip duration before: 99017/20s, after: 23/15s
+new_asset_clip duration before: 99017/20s, after: 24731/5s, silence_duration 187/60s, old_duration: 23/15s
+old_asset_clip fps: 100/6000s, start: 83619/60s, start_frac: 27873/20, end: 83725/60s, end_frac: 16745/12, duration: 53/30
+old_asset_clip duration before: 24731/5s, after: 53/30s
+new_asset_clip duration before: 24731/5s, after: 98811/20s, silence_duration 233/60s, old_duration: 53/30s
+old_asset_clip fps: 100/6000s, start: 83958/60s, start_frac: 13993/10, end: 84170/60s, end_frac: 8417/6, duration: 53/15
+old_asset_clip duration before: 98811/20s, after: 53/15s
+new_asset_clip duration before: 98811/20s, after: 14809/3s, silence_duration 41/60s, old_duration: 53/15s
+old_asset_clip fps: 100/6000s, start: 84211/60s, start_frac: 84211/60, end: 84290/60s, end_frac: 8429/6, duration: 79/60
+old_asset_clip duration before: 14809/3s, after: 79/60s
+new_asset_clip duration before: 14809/3s, after: 296033/60s, silence_duration 17/15s, old_duration: 79/60s
+old_asset_clip fps: 100/6000s, start: 84358/60s, start_frac: 42179/30, end: 84657/60s, end_frac: 28219/20, duration: 299/60
+old_asset_clip duration before: 296033/60s, after: 299/60s
+new_asset_clip duration before: 296033/60s, after: 295661/60s, silence_duration 73/60s, old_duration: 299/60s
+old_asset_clip fps: 100/6000s, start: 84730/60s, start_frac: 8473/6, end: 84787/60s, end_frac: 84787/60, duration: 19/20
+old_asset_clip duration before: 295661/60s, after: 19/20s
+new_asset_clip duration before: 295661/60s, after: 14779/3s, silence_duration 2/5s, old_duration: 19/20s
+old_asset_clip fps: 100/6000s, start: 84811/60s, start_frac: 84811/60, end: 84927/60s, end_frac: 28309/20, duration: 29/15
+old_asset_clip duration before: 14779/3s, after: 29/15s
+new_asset_clip duration before: 14779/3s, after: 295441/60s, silence_duration 23/60s, old_duration: 29/15s
+old_asset_clip fps: 100/6000s, start: 84950/60s, start_frac: 8495/6, end: 85007/60s, end_frac: 85007/60, duration: 19/20
+old_asset_clip duration before: 295441/60s, after: 19/20s
+new_asset_clip duration before: 295441/60s, after: 147679/30s, silence_duration 13/30s, old_duration: 19/20s
+old_asset_clip fps: 100/6000s, start: 85033/60s, start_frac: 85033/60, end: 85417/60s, end_frac: 85417/60, duration: 32/5
+old_asset_clip duration before: 147679/30s, after: 32/5s
+new_asset_clip duration before: 147679/30s, after: 294947/60s, silence_duration 9/20s, old_duration: 32/5s
+old_asset_clip fps: 100/6000s, start: 85444/60s, start_frac: 21361/15, end: 85674/60s, end_frac: 14279/10, duration: 23/6
+old_asset_clip duration before: 294947/60s, after: 23/6s
+new_asset_clip duration before: 294947/60s, after: 294637/60s, silence_duration 4/3s, old_duration: 23/6s
+old_asset_clip fps: 100/6000s, start: 85754/60s, start_frac: 42877/30, end: 85939/60s, end_frac: 85939/60, duration: 37/12
+old_asset_clip duration before: 294637/60s, after: 37/12s
+new_asset_clip duration before: 294637/60s, after: 24534/5s, silence_duration 11/15s, old_duration: 37/12s
+old_asset_clip fps: 100/6000s, start: 85983/60s, start_frac: 28661/20, end: 86158/60s, end_frac: 43079/30, duration: 35/12
+old_asset_clip duration before: 24534/5s, after: 35/12s
+new_asset_clip duration before: 24534/5s, after: 49029/10s, silence_duration 59/60s, old_duration: 35/12s
+old_asset_clip fps: 100/6000s, start: 86217/60s, start_frac: 28739/20, end: 86282/60s, end_frac: 43141/30, duration: 13/12
+old_asset_clip duration before: 49029/10s, after: 13/12s
+new_asset_clip duration before: 49029/10s, after: 73514/15s, silence_duration 53/60s, old_duration: 13/12s
+old_asset_clip fps: 100/6000s, start: 86335/60s, start_frac: 17267/12, end: 86738/60s, end_frac: 43369/30, duration: 403/60
+old_asset_clip duration before: 73514/15s, after: 403/60s
+new_asset_clip duration before: 73514/15s, after: 146819/30s, silence_duration 1/4s, old_duration: 403/60s
+old_asset_clip fps: 100/6000s, start: 86753/60s, start_frac: 86753/60, end: 86904/60s, end_frac: 7242/5, duration: 151/60
+old_asset_clip duration before: 146819/30s, after: 151/60s
+new_asset_clip duration before: 146819/30s, after: 293081/60s, silence_duration 203/30s, old_duration: 151/60s
+old_asset_clip fps: 100/6000s, start: 87310/60s, start_frac: 8731/6, end: 87587/60s, end_frac: 87587/60, duration: 277/60
+old_asset_clip duration before: 293081/60s, after: 277/60s
+new_asset_clip duration before: 293081/60s, after: 9757/2s, silence_duration 47/30s, old_duration: 277/60s
+old_asset_clip fps: 100/6000s, start: 87681/60s, start_frac: 29227/20, end: 87753/60s, end_frac: 29251/20, duration: 6/5
+old_asset_clip duration before: 9757/2s, after: 6/5s
+new_asset_clip duration before: 9757/2s, after: 73121/15s, silence_duration 77/30s, old_duration: 6/5s
+old_asset_clip fps: 100/6000s, start: 87907/60s, start_frac: 87907/60, end: 98420/60s, end_frac: 4921/3, duration: 10513/60
+old_asset_clip duration before: 73121/15s, after: 10513/60s
+new_asset_clip duration before: 73121/15s, after: 281897/60s, silence_duration 37/30s, old_duration: 10513/60s
+old_asset_clip fps: 100/6000s, start: 98494/60s, start_frac: 49247/30, end: 98722/60s, end_frac: 49361/30, duration: 19/5
+old_asset_clip duration before: 281897/60s, after: 19/5s
+new_asset_clip duration before: 281897/60s, after: 23414/5s, silence_duration 701/60s, old_duration: 19/5s
+old_asset_clip fps: 100/6000s, start: 99423/60s, start_frac: 33141/20, end: 99490/60s, end_frac: 9949/6, duration: 67/60
+old_asset_clip duration before: 23414/5s, after: 67/60s
+new_asset_clip duration before: 23414/5s, after: 70087/15s, silence_duration 553/60s, old_duration: 67/60s
+old_asset_clip fps: 100/6000s, start: 100043/60s, start_frac: 100043/60, end: 100220/60s, end_frac: 5011/3, duration: 59/20
+old_asset_clip duration before: 70087/15s, after: 59/20s
+new_asset_clip duration before: 70087/15s, after: 23346/5s, silence_duration 19/60s, old_duration: 59/20s
+old_asset_clip fps: 100/6000s, start: 100239/60s, start_frac: 33413/20, end: 100344/60s, end_frac: 8362/5, duration: 7/4
+old_asset_clip duration before: 23346/5s, after: 7/4s
+new_asset_clip duration before: 23346/5s, after: 70004/15s, silence_duration 31/60s, old_duration: 7/4s
+old_asset_clip fps: 100/6000s, start: 100375/60s, start_frac: 20075/12, end: 100467/60s, end_frac: 33489/20, duration: 23/15
+old_asset_clip duration before: 70004/15s, after: 23/15s
+new_asset_clip duration before: 70004/15s, after: 139913/30s, silence_duration 49/30s, old_duration: 23/15s
+old_asset_clip fps: 100/6000s, start: 100565/60s, start_frac: 20113/12, end: 100666/60s, end_frac: 50333/30, duration: 101/60
+old_asset_clip duration before: 139913/30s, after: 101/60s
+new_asset_clip duration before: 139913/30s, after: 139811/30s, silence_duration 103/60s, old_duration: 101/60s
+old_asset_clip fps: 100/6000s, start: 100769/60s, start_frac: 100769/60, end: 100846/60s, end_frac: 50423/30, duration: 77/60
+old_asset_clip duration before: 139811/30s, after: 77/60s
+new_asset_clip duration before: 139811/30s, after: 279499/60s, silence_duration 23/30s, old_duration: 77/60s
+old_asset_clip fps: 100/6000s, start: 100892/60s, start_frac: 25223/15, end: 100984/60s, end_frac: 25246/15, duration: 23/15
+old_asset_clip duration before: 279499/60s, after: 23/15s
+new_asset_clip duration before: 279499/60s, after: 279133/60s, silence_duration 137/30s, old_duration: 23/15s
+old_asset_clip fps: 100/6000s, start: 101258/60s, start_frac: 50629/30, end: 101453/60s, end_frac: 101453/60, duration: 13/4
+old_asset_clip duration before: 279133/60s, after: 13/4s
+new_asset_clip duration before: 279133/60s, after: 69677/15s, silence_duration 23/6s, old_duration: 13/4s
+old_asset_clip fps: 100/6000s, start: 101683/60s, start_frac: 101683/60, end: 101751/60s, end_frac: 33917/20, duration: 17/15
+old_asset_clip duration before: 69677/15s, after: 17/15s
+new_asset_clip duration before: 69677/15s, after: 278627/60s, silence_duration 13/60s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 101764/60s, start_frac: 25441/15, end: 101829/60s, end_frac: 33943/20, duration: 13/12
+old_asset_clip duration before: 278627/60s, after: 13/12s
+new_asset_clip duration before: 278627/60s, after: 139267/30s, silence_duration 7/15s, old_duration: 13/12s
+old_asset_clip fps: 100/6000s, start: 101857/60s, start_frac: 101857/60, end: 101932/60s, end_frac: 25483/15, duration: 5/4
+old_asset_clip duration before: 139267/30s, after: 5/4s
+new_asset_clip duration before: 139267/30s, after: 92813/20s, silence_duration 1/3s, old_duration: 5/4s
+old_asset_clip fps: 100/6000s, start: 101952/60s, start_frac: 8496/5, end: 102182/60s, end_frac: 51091/30, duration: 23/6
+old_asset_clip duration before: 92813/20s, after: 23/6s
+new_asset_clip duration before: 92813/20s, after: 23178/5s, silence_duration 73/60s, old_duration: 23/6s
+old_asset_clip fps: 100/6000s, start: 102255/60s, start_frac: 6817/4, end: 102352/60s, end_frac: 25588/15, duration: 97/60
+old_asset_clip duration before: 23178/5s, after: 97/60s
+new_asset_clip duration before: 23178/5s, after: 92659/20s, silence_duration 31/30s, old_duration: 97/60s
+old_asset_clip fps: 100/6000s, start: 102414/60s, start_frac: 17069/10, end: 102620/60s, end_frac: 5131/3, duration: 103/30
+old_asset_clip duration before: 92659/20s, after: 103/30s
+new_asset_clip duration before: 92659/20s, after: 69407/15s, silence_duration 143/60s, old_duration: 103/30s
+old_asset_clip fps: 100/6000s, start: 102763/60s, start_frac: 102763/60, end: 103068/60s, end_frac: 8589/5, duration: 61/12
+old_asset_clip duration before: 69407/15s, after: 61/12s
+new_asset_clip duration before: 69407/15s, after: 92287/20s, silence_duration 77/10s, old_duration: 61/12s
+old_asset_clip fps: 100/6000s, start: 103530/60s, start_frac: 3451/2, end: 103670/60s, end_frac: 10367/6, duration: 7/3
+old_asset_clip duration before: 92287/20s, after: 7/3s
+new_asset_clip duration before: 92287/20s, after: 138299/30s, silence_duration 41/20s, old_duration: 7/3s
+old_asset_clip fps: 100/6000s, start: 103793/60s, start_frac: 103793/60, end: 103850/60s, end_frac: 10385/6, duration: 19/20
+old_asset_clip duration before: 138299/30s, after: 19/20s
+new_asset_clip duration before: 138299/30s, after: 4605s, silence_duration 241/60s, old_duration: 19/20s
+old_asset_clip fps: 100/6000s, start: 104091/60s, start_frac: 34697/20, end: 104151/60s, end_frac: 34717/20, duration: 1
+old_asset_clip duration before: 4605/1s, after: 1s
+new_asset_clip duration before: 4605/1s, after: 23016/5s, silence_duration 4/5s, old_duration: 1s
+old_asset_clip fps: 100/6000s, start: 104199/60s, start_frac: 34733/20, end: 104282/60s, end_frac: 52141/30, duration: 83/60
+old_asset_clip duration before: 23016/5s, after: 83/60s
+new_asset_clip duration before: 23016/5s, after: 23008/5s, silence_duration 13/60s, old_duration: 83/60s
+old_asset_clip fps: 100/6000s, start: 104295/60s, start_frac: 6953/4, end: 104339/60s, end_frac: 104339/60, duration: 11/15
+old_asset_clip duration before: 23008/5s, after: 11/15s
+new_asset_clip duration before: 23008/5s, after: 276001/60s, silence_duration 17/20s, old_duration: 11/15s
+old_asset_clip fps: 100/6000s, start: 104390/60s, start_frac: 10439/6, end: 104539/60s, end_frac: 104539/60, duration: 149/60
+old_asset_clip duration before: 276001/60s, after: 149/60s
+new_asset_clip duration before: 276001/60s, after: 137887/30s, silence_duration 13/10s, old_duration: 149/60s
+old_asset_clip fps: 100/6000s, start: 104617/60s, start_frac: 104617/60, end: 104689/60s, end_frac: 104689/60, duration: 6/5
+old_asset_clip duration before: 137887/30s, after: 6/5s
+new_asset_clip duration before: 137887/30s, after: 4594s, silence_duration 31/30s, old_duration: 6/5s
+old_asset_clip fps: 100/6000s, start: 104751/60s, start_frac: 34917/20, end: 104842/60s, end_frac: 52421/30, duration: 91/60
+old_asset_clip duration before: 4594/1s, after: 91/60s
+new_asset_clip duration before: 4594/1s, after: 91793/20s, silence_duration 17/6s, old_duration: 91/60s
+old_asset_clip fps: 100/6000s, start: 105012/60s, start_frac: 8751/5, end: 105109/60s, end_frac: 105109/60, duration: 97/60
+old_asset_clip duration before: 91793/20s, after: 97/60s
+new_asset_clip duration before: 91793/20s, after: 45873/10s, silence_duration 11/15s, old_duration: 97/60s
+old_asset_clip fps: 100/6000s, start: 105153/60s, start_frac: 35051/20, end: 105214/60s, end_frac: 52607/30, duration: 61/60
+old_asset_clip duration before: 45873/10s, after: 61/60s
+new_asset_clip duration before: 45873/10s, after: 274373/60s, silence_duration 67/5s, old_duration: 61/60s
+old_asset_clip fps: 100/6000s, start: 106018/60s, start_frac: 53009/30, end: 106091/60s, end_frac: 106091/60, duration: 73/60
+old_asset_clip duration before: 274373/60s, after: 73/60s
+new_asset_clip duration before: 274373/60s, after: 274277/60s, silence_duration 23/60s, old_duration: 73/60s
+old_asset_clip fps: 100/6000s, start: 106114/60s, start_frac: 53057/30, end: 106279/60s, end_frac: 106279/60, duration: 11/4
+old_asset_clip duration before: 274277/60s, after: 11/4s
+new_asset_clip duration before: 274277/60s, after: 136997/30s, silence_duration 59/30s, old_duration: 11/4s
+old_asset_clip fps: 100/6000s, start: 106397/60s, start_frac: 106397/60, end: 106507/60s, end_frac: 106507/60, duration: 11/6
+old_asset_clip duration before: 136997/30s, after: 11/6s
+new_asset_clip duration before: 136997/30s, after: 273833/60s, silence_duration 17/20s, old_duration: 11/6s
+old_asset_clip fps: 100/6000s, start: 106558/60s, start_frac: 53279/30, end: 114586/60s, end_frac: 57293/30, duration: 669/5
+old_asset_clip duration before: 273833/60s, after: 669/5s
+new_asset_clip duration before: 273833/60s, after: 66443/15s, silence_duration 11/20s, old_duration: 669/5s
+old_asset_clip fps: 100/6000s, start: 114619/60s, start_frac: 114619/60, end: 130218/60s, end_frac: 21703/10, duration: 15599/60
+old_asset_clip duration before: 66443/15s, after: 15599/60s
+new_asset_clip duration before: 66443/15s, after: 20841/5s, silence_duration 27/20s, old_duration: 15599/60s
+old_asset_clip fps: 100/6000s, start: 130299/60s, start_frac: 43433/20, end: 139363/60s, end_frac: 139363/60, duration: 2266/15
+old_asset_clip duration before: 20841/5s, after: 2266/15s
+new_asset_clip duration before: 20841/5s, after: 40169/10s, silence_duration 7/30s, old_duration: 2266/15s
+old_asset_clip fps: 100/6000s, start: 139377/60s, start_frac: 46459/20, end: 139463/60s, end_frac: 139463/60, duration: 43/30
+old_asset_clip duration before: 40169/10s, after: 43/30s
+new_asset_clip duration before: 40169/10s, after: 120421/30s, silence_duration 43/30s, old_duration: 43/30s
+old_asset_clip fps: 100/6000s, start: 139549/60s, start_frac: 139549/60, end: 182853/60s, end_frac: 60951/20, duration: 10826/15
+old_asset_clip duration before: 120421/30s, after: 10826/15s
+new_asset_clip duration before: 120421/30s, after: 49327/15s, silence_duration 23/6s, old_duration: 10826/15s
+old_asset_clip fps: 100/6000s, start: 183083/60s, start_frac: 183083/60, end: 183146/60s, end_frac: 91573/30, duration: 21/20
+old_asset_clip duration before: 49327/15s, after: 21/20s
+new_asset_clip duration before: 49327/15s, after: 197009/60s, silence_duration 59/15s, old_duration: 21/20s
+old_asset_clip fps: 100/6000s, start: 183382/60s, start_frac: 91691/30, end: 190766/60s, end_frac: 95383/30, duration: 1846/15
+old_asset_clip duration before: 197009/60s, after: 1846/15s
+new_asset_clip duration before: 197009/60s, after: 47371/15s, silence_duration 47/20s, old_duration: 1846/15s
+old_asset_clip fps: 100/6000s, start: 190907/60s, start_frac: 190907/60, end: 190953/60s, end_frac: 63651/20, duration: 23/30
+old_asset_clip duration before: 47371/15s, after: 23/30s
+new_asset_clip duration before: 47371/15s, after: 63131/20s, silence_duration 3/4s, old_duration: 23/30s
+old_asset_clip fps: 100/6000s, start: 190998/60s, start_frac: 31833/10, end: 191164/60s, end_frac: 47791/15, duration: 83/30
+old_asset_clip duration before: 63131/20s, after: 83/30s
+new_asset_clip duration before: 63131/20s, after: 189031/60s, silence_duration 49/15s, old_duration: 83/30s
+old_asset_clip fps: 100/6000s, start: 191360/60s, start_frac: 9568/3, end: 191611/60s, end_frac: 191611/60, duration: 251/60
+old_asset_clip duration before: 189031/60s, after: 251/60s
+new_asset_clip duration before: 189031/60s, after: 31457/10s, silence_duration 19/30s, old_duration: 251/60s
+old_asset_clip fps: 100/6000s, start: 191649/60s, start_frac: 63883/20, end: 191834/60s, end_frac: 95917/30, duration: 37/12
+old_asset_clip duration before: 31457/10s, after: 37/12s
+new_asset_clip duration before: 31457/10s, after: 47119/15s, silence_duration 27/20s, old_duration: 37/12s
+old_asset_clip fps: 100/6000s, start: 191915/60s, start_frac: 38383/12, end: 191994/60s, end_frac: 31999/10, duration: 79/60
+old_asset_clip duration before: 47119/15s, after: 79/60s
+new_asset_clip duration before: 47119/15s, after: 62741/20s, silence_duration 29/10s, old_duration: 79/60s
+old_asset_clip fps: 100/6000s, start: 192168/60s, start_frac: 16014/5, end: 192287/60s, end_frac: 192287/60, duration: 119/60
+old_asset_clip duration before: 62741/20s, after: 119/60s
+new_asset_clip duration before: 62741/20s, after: 37589/12s, silence_duration 53/20s, old_duration: 119/60s
+old_asset_clip fps: 100/6000s, start: 192446/60s, start_frac: 96223/30, end: 192523/60s, end_frac: 192523/60, duration: 77/60
+old_asset_clip duration before: 37589/12s, after: 77/60s
+new_asset_clip duration before: 37589/12s, after: 15646/5s, silence_duration 29/15s, old_duration: 77/60s
+old_asset_clip fps: 100/6000s, start: 192639/60s, start_frac: 64213/20, end: 192937/60s, end_frac: 192937/60, duration: 149/30
+old_asset_clip duration before: 15646/5s, after: 149/30s
+new_asset_clip duration before: 15646/5s, after: 187219/60s, silence_duration 47/12s, old_duration: 149/30s
+old_asset_clip fps: 100/6000s, start: 193172/60s, start_frac: 48293/15, end: 193231/60s, end_frac: 193231/60, duration: 59/60
+old_asset_clip duration before: 187219/60s, after: 59/60s
+new_asset_clip duration before: 187219/60s, after: 93559/30s, silence_duration 7/10s, old_duration: 59/60s
+old_asset_clip fps: 100/6000s, start: 193273/60s, start_frac: 193273/60, end: 193369/60s, end_frac: 193369/60, duration: 8/5
+old_asset_clip duration before: 93559/30s, after: 8/5s
+new_asset_clip duration before: 93559/30s, after: 62257/20s, silence_duration 251/60s, old_duration: 8/5s
+old_asset_clip fps: 100/6000s, start: 193620/60s, start_frac: 3227, end: 193971/60s, end_frac: 64657/20, duration: 117/20
+old_asset_clip duration before: 62257/20s, after: 117/20s
+new_asset_clip duration before: 62257/20s, after: 62097/20s, silence_duration 43/20s, old_duration: 117/20s
+old_asset_clip fps: 100/6000s, start: 194100/60s, start_frac: 3235, end: 194201/60s, end_frac: 194201/60, duration: 101/60
+old_asset_clip duration before: 62097/20s, after: 101/60s
+new_asset_clip duration before: 62097/20s, after: 46519/15s, silence_duration 19/10s, old_duration: 101/60s
+old_asset_clip fps: 100/6000s, start: 194315/60s, start_frac: 38863/12, end: 194432/60s, end_frac: 48608/15, duration: 39/20
+old_asset_clip duration before: 46519/15s, after: 39/20s
+new_asset_clip duration before: 46519/15s, after: 18593/6s, silence_duration 29/60s, old_duration: 39/20s
+old_asset_clip fps: 100/6000s, start: 194461/60s, start_frac: 194461/60, end: 194529/60s, end_frac: 64843/20, duration: 17/15
+old_asset_clip duration before: 18593/6s, after: 17/15s
+new_asset_clip duration before: 18593/6s, after: 37169/12s, silence_duration 17/60s, old_duration: 17/15s
+old_asset_clip fps: 100/6000s, start: 194546/60s, start_frac: 97273/30, end: 194708/60s, end_frac: 48677/15, duration: 27/10
+old_asset_clip duration before: 37169/12s, after: 27/10s
+new_asset_clip duration before: 37169/12s, after: 18527/6s, silence_duration 413/60s, old_duration: 27/10s
+old_asset_clip fps: 100/6000s, start: 195121/60s, start_frac: 195121/60, end: 195200/60s, end_frac: 9760/3, duration: 79/60
+old_asset_clip duration before: 18527/6s, after: 79/60s
+new_asset_clip duration before: 18527/6s, after: 92561/30s, silence_duration 23/20s, old_duration: 79/60s
+old_asset_clip fps: 100/6000s, start: 195269/60s, start_frac: 195269/60, end: 195385/60s, end_frac: 39077/12, duration: 29/15
+old_asset_clip duration before: 92561/30s, after: 29/15s
+new_asset_clip duration before: 92561/30s, after: 92489/30s, silence_duration 7/15s, old_duration: 29/15s
+old_asset_clip fps: 100/6000s, start: 195413/60s, start_frac: 195413/60, end: 195462/60s, end_frac: 32577/10, duration: 49/60
+old_asset_clip duration before: 92489/30s, after: 49/60s
+new_asset_clip duration before: 92489/30s, after: 92407/30s, silence_duration 23/12s, old_duration: 49/60s
+old_asset_clip fps: 100/6000s, start: 195577/60s, start_frac: 195577/60, end: 195658/60s, end_frac: 97829/30, duration: 27/20
+old_asset_clip duration before: 92407/30s, after: 27/20s
+new_asset_clip duration before: 92407/30s, after: 46171/15s, silence_duration 49/60s, old_duration: 27/20s
+old_asset_clip fps: 100/6000s, start: 195707/60s, start_frac: 195707/60, end: 195867/60s, end_frac: 65289/20, duration: 8/3
+old_asset_clip duration before: 46171/15s, after: 8/3s
+new_asset_clip duration before: 46171/15s, after: 6147/2s, silence_duration 19/10s, old_duration: 8/3s
+old_asset_clip fps: 100/6000s, start: 195981/60s, start_frac: 65327/20, end: 196069/60s, end_frac: 196069/60, duration: 22/15
+old_asset_clip duration before: 6147/2s, after: 22/15s
+new_asset_clip duration before: 6147/2s, after: 92123/30s, silence_duration 19/15s, old_duration: 22/15s
+old_asset_clip fps: 100/6000s, start: 196145/60s, start_frac: 39229/12, end: 196224/60s, end_frac: 16352/5, duration: 79/60
+old_asset_clip duration before: 92123/30s, after: 79/60s
+new_asset_clip duration before: 92123/30s, after: 183061/60s, silence_duration 553/30s, old_duration: 79/60s
+old_asset_clip fps: 100/6000s, start: 197330/60s, start_frac: 19733/6, end: 197534/60s, end_frac: 98767/30, duration: 17/5
+old_asset_clip duration before: 183061/60s, after: 17/5s
+new_asset_clip duration before: 183061/60s, after: 182839/60s, silence_duration 3/10s, old_duration: 17/5s
+old_asset_clip fps: 100/6000s, start: 197552/60s, start_frac: 49388/15, end: 197595/60s, end_frac: 13173/4, duration: 43/60
+old_asset_clip duration before: 182839/60s, after: 43/60s
+new_asset_clip duration before: 182839/60s, after: 91327/30s, silence_duration 71/30s, old_duration: 43/60s
+old_asset_clip fps: 100/6000s, start: 197737/60s, start_frac: 197737/60, end: 197844/60s, end_frac: 16487/5, duration: 107/60
+old_asset_clip duration before: 91327/30s, after: 107/60s
+new_asset_clip duration before: 91327/30s, after: 91267/30s, silence_duration 13/60s, old_duration: 107/60s
+old_asset_clip fps: 100/6000s, start: 197857/60s, start_frac: 197857/60, end: 197977/60s, end_frac: 197977/60, duration: 2
+old_asset_clip duration before: 91267/30s, after: 2s
+new_asset_clip duration before: 91267/30s, after: 57691/20s, silence_duration 9341/60s, old_duration: 2s
+old_asset_clip fps: 100/6000s, start: 207318/60s, start_frac: 34553/10, end: 207467/60s, end_frac: 207467/60, duration: 149/60
+old_asset_clip duration before: 57691/20s, after: 149/60s
+new_asset_clip duration before: 57691/20s, after: 43193/15s, silence_duration 38/15s, old_duration: 149/60s
+old_asset_clip fps: 100/6000s, start: 207619/60s, start_frac: 207619/60, end: 207837/60s, end_frac: 69279/20, duration: 109/30
+old_asset_clip duration before: 43193/15s, after: 109/30s
+new_asset_clip duration before: 43193/15s, after: 171809/60s, silence_duration 149/12s, old_duration: 109/30s
+old_asset_clip fps: 100/6000s, start: 208582/60s, start_frac: 104291/30, end: 208667/60s, end_frac: 208667/60, duration: 17/12
+old_asset_clip duration before: 171809/60s, after: 17/12s
+new_asset_clip duration before: 171809/60s, after: 42697/15s, silence_duration 78/5s, old_duration: 17/12s
+old_asset_clip fps: 100/6000s, start: 209603/60s, start_frac: 209603/60, end: 209672/60s, end_frac: 52418/15, duration: 23/20
+old_asset_clip duration before: 42697/15s, after: 23/20s
+new_asset_clip duration before: 42697/15s, after: 34127/12s, silence_duration 7/5s, old_duration: 23/20s
+old_asset_clip fps: 100/6000s, start: 209756/60s, start_frac: 52439/15, end: 209856/60s, end_frac: 17488/5, duration: 5/3
+old_asset_clip duration before: 34127/12s, after: 5/3s
+new_asset_clip duration before: 34127/12s, after: 170353/60s, silence_duration 91/30s, old_duration: 5/3s
+old_asset_clip fps: 100/6000s, start: 210038/60s, start_frac: 105019/30, end: 210124/60s, end_frac: 52531/15, duration: 43/30
+old_asset_clip duration before: 170353/60s, after: 43/30s
+new_asset_clip duration before: 170353/60s, after: 14113/5s, silence_duration 911/60s, old_duration: 43/30s
+old_asset_clip fps: 100/6000s, start: 211035/60s, start_frac: 14069/4, end: 211140/60s, end_frac: 3519, duration: 7/4
+old_asset_clip duration before: 14113/5s, after: 7/4s
+new_asset_clip duration before: 14113/5s, after: 82907/30s, silence_duration 3437/60s, old_duration: 7/4s
+old_asset_clip fps: 100/6000s, start: 214577/60s, start_frac: 214577/60, end: 214676/60s, end_frac: 53669/15, duration: 33/20
+old_asset_clip duration before: 82907/30s, after: 33/20s
+new_asset_clip duration before: 82907/30s, after: 13807/5s, silence_duration 31/60s, old_duration: 33/20s
+old_asset_clip fps: 100/6000s, start: 214707/60s, start_frac: 71569/20, end: 215012/60s, end_frac: 53753/15, duration: 61/12
+old_asset_clip duration before: 13807/5s, after: 61/12s
+new_asset_clip duration before: 13807/5s, after: 32707/12s, silence_duration 461/15s, old_duration: 61/12s
+old_asset_clip fps: 100/6000s, start: 216856/60s, start_frac: 54214/15, end: 216974/60s, end_frac: 108487/30, duration: 59/30
+old_asset_clip duration before: 32707/12s, after: 59/30s
+new_asset_clip duration before: 32707/12s, after: 81589/30s, silence_duration 239/60s, old_duration: 59/30s
+old_asset_clip fps: 100/6000s, start: 217213/60s, start_frac: 217213/60, end: 217387/60s, end_frac: 217387/60, duration: 29/10
+old_asset_clip duration before: 81589/30s, after: 29/10s
+new_asset_clip duration before: 81589/30s, after: 81229/30s, silence_duration 91/10s, old_duration: 29/10s
+old_asset_clip fps: 100/6000s, start: 217933/60s, start_frac: 217933/60, end: 217984/60s, end_frac: 54496/15, duration: 17/20
+old_asset_clip duration before: 81229/30s, after: 17/20s
+new_asset_clip duration before: 81229/30s, after: 32473/12s, silence_duration 7/10s, old_duration: 17/20s
+old_asset_clip fps: 100/6000s, start: 218026/60s, start_frac: 109013/30, end: 218095/60s, end_frac: 43619/12, duration: 23/20
+old_asset_clip duration before: 32473/12s, after: 23/20s
+new_asset_clip duration before: 32473/12s, after: 40526/15s, silence_duration 16/5s, old_duration: 23/20s
+old_asset_clip fps: 100/6000s, start: 218287/60s, start_frac: 218287/60, end: 218327/60s, end_frac: 218327/60, duration: 2/3
+old_asset_clip duration before: 40526/15s, after: 2/3s
+new_asset_clip duration before: 40526/15s, after: 162001/60s, silence_duration 21/20s, old_duration: 2/3s
+old_asset_clip fps: 100/6000s, start: 218390/60s, start_frac: 21839/6, end: 218502/60s, end_frac: 36417/10, duration: 28/15
+old_asset_clip duration before: 162001/60s, after: 28/15s
+new_asset_clip duration before: 162001/60s, after: 8093/3s, silence_duration 29/60s, old_duration: 28/15s
+old_asset_clip fps: 100/6000s, start: 218531/60s, start_frac: 218531/60, end: 218640/60s, end_frac: 3644, duration: 109/60
+old_asset_clip duration before: 8093/3s, after: 109/60s
+new_asset_clip duration before: 8093/3s, after: 53883/20s, silence_duration 17/10s, old_duration: 109/60s
+old_asset_clip fps: 100/6000s, start: 218742/60s, start_frac: 36457/10, end: 218862/60s, end_frac: 36477/10, duration: 2
+old_asset_clip duration before: 53883/20s, after: 2s
+new_asset_clip duration before: 53883/20s, after: 161503/60s, silence_duration 13/30s, old_duration: 2s
+old_asset_clip fps: 100/6000s, start: 218888/60s, start_frac: 54722/15, end: 219016/60s, end_frac: 54754/15, duration: 32/15
+old_asset_clip duration before: 161503/60s, after: 32/15s
+new_asset_clip duration before: 161503/60s, after: 8068/3s, silence_duration 1/4s, old_duration: 32/15s
+old_asset_clip fps: 100/6000s, start: 219031/60s, start_frac: 219031/60, end: 219069/60s, end_frac: 73023/20, duration: 19/30
+old_asset_clip duration before: 8068/3s, after: 19/30s
+new_asset_clip duration before: 8068/3s, after: 80557/30s, silence_duration 52/15s, old_duration: 19/30s
+old_asset_clip fps: 100/6000s, start: 219277/60s, start_frac: 219277/60, end: 219403/60s, end_frac: 219403/60, duration: 21/10
+old_asset_clip duration before: 80557/30s, after: 21/10s
+new_asset_clip duration before: 80557/30s, after: 53369/20s, silence_duration 881/60s, old_duration: 21/10s
+old_asset_clip fps: 100/6000s, start: 220284/60s, start_frac: 18357/5, end: 220464/60s, end_frac: 18372/5, duration: 3
+old_asset_clip duration before: 53369/20s, after: 3s
+new_asset_clip duration before: 53369/20s, after: 31807/12s, silence_duration 223/15s, old_duration: 3s
+old_asset_clip fps: 100/6000s, start: 221356/60s, start_frac: 55339/15, end: 221475/60s, end_frac: 14765/4, duration: 119/60
+old_asset_clip duration before: 31807/12s, after: 119/60s
+new_asset_clip duration before: 31807/12s, after: 79447/30s, silence_duration 11/30s, old_duration: 119/60s
+old_asset_clip fps: 100/6000s, start: 221497/60s, start_frac: 221497/60, end: 221579/60s, end_frac: 221579/60, duration: 41/30
+old_asset_clip duration before: 79447/30s, after: 41/30s
+new_asset_clip duration before: 79447/30s, after: 39688/15s, silence_duration 1s, old_duration: 41/30s
+old_asset_clip fps: 100/6000s, start: 221639/60s, start_frac: 221639/60, end: 222011/60s, end_frac: 222011/60, duration: 31/5
+old_asset_clip duration before: 39688/15s, after: 31/5s
+new_asset_clip duration before: 39688/15s, after: 5277/2s, silence_duration 7/6s, old_duration: 31/5s
+old_asset_clip fps: 100/6000s, start: 222081/60s, start_frac: 74027/20, end: 222118/60s, end_frac: 111059/30, duration: 37/60
+old_asset_clip duration before: 5277/2s, after: 37/60s
+new_asset_clip duration before: 5277/2s, after: 13187/5s, silence_duration 29/60s, old_duration: 37/60s
+old_asset_clip fps: 100/6000s, start: 222147/60s, start_frac: 74049/20, end: 222254/60s, end_frac: 111127/30, duration: 107/60
+old_asset_clip duration before: 13187/5s, after: 107/60s
+new_asset_clip duration before: 13187/5s, after: 52677/20s, silence_duration 53/30s, old_duration: 107/60s
+old_asset_clip fps: 100/6000s, start: 222360/60s, start_frac: 3706, end: 222427/60s, end_frac: 222427/60, duration: 67/60
+old_asset_clip duration before: 52677/20s, after: 67/60s
+new_asset_clip duration before: 52677/20s, after: 39469/15s, silence_duration 22/15s, old_duration: 67/60s
+old_asset_clip fps: 100/6000s, start: 222515/60s, start_frac: 44503/12, end: 222593/60s, end_frac: 222593/60, duration: 13/10
+old_asset_clip duration before: 39469/15s, after: 13/10s
+new_asset_clip duration before: 39469/15s, after: 51969/20s, silence_duration 1891/60s, old_duration: 13/10s
+old_asset_clip fps: 100/6000s, start: 224484/60s, start_frac: 18707/5, end: 224627/60s, end_frac: 224627/60, duration: 143/60
+old_asset_clip duration before: 51969/20s, after: 143/60s
+new_asset_clip duration before: 51969/20s, after: 51861/20s, silence_duration 181/60s, old_duration: 143/60s
+old_asset_clip fps: 100/6000s, start: 224808/60s, start_frac: 18734/5, end: 224911/60s, end_frac: 224911/60, duration: 103/60
+old_asset_clip duration before: 51861/20s, after: 103/60s
+new_asset_clip duration before: 51861/20s, after: 2590s, silence_duration 4/3s, old_duration: 103/60s
+old_asset_clip fps: 100/6000s, start: 224991/60s, start_frac: 74997/20, end: 225039/60s, end_frac: 75013/20, duration: 4/5
+old_asset_clip duration before: 2590/1s, after: 4/5s
+new_asset_clip duration before: 2590/1s, after: 77473/30s, silence_duration 203/30s, old_duration: 4/5s
+old_asset_clip fps: 100/6000s, start: 225445/60s, start_frac: 45089/12, end: 225514/60s, end_frac: 112757/30, duration: 23/20
+old_asset_clip duration before: 77473/30s, after: 23/20s
+new_asset_clip duration before: 77473/30s, after: 154837/60s, silence_duration 2/3s, old_duration: 23/20s
+old_asset_clip fps: 100/6000s, start: 225554/60s, start_frac: 112777/30, end: 225610/60s, end_frac: 22561/6, duration: 14/15
+old_asset_clip duration before: 154837/60s, after: 14/15s
+new_asset_clip duration before: 154837/60s, after: 38597/15s, silence_duration 131/20s, old_duration: 14/15s
+old_asset_clip fps: 100/6000s, start: 226003/60s, start_frac: 226003/60, end: 257700/60s, end_frac: 4295, duration: 31697/60
+old_asset_clip duration before: 38597/15s, after: 31697/60s
+new_asset_clip duration before: 38597/15s, after: 24445/12s, silence_duration 233/30s, old_duration: 31697/60s
+old_asset_clip fps: 100/6000s, start: 258166/60s, start_frac: 129083/30, end: 258210/60s, end_frac: 8607/2, duration: 11/15
+old_asset_clip duration before: 24445/12s, after: 11/15s
+new_asset_clip duration before: 24445/12s, after: 122117/60s, silence_duration 16/15s, old_duration: 11/15s
+old_asset_clip fps: 100/6000s, start: 258274/60s, start_frac: 129137/30, end: 258360/60s, end_frac: 4306, duration: 43/30
+old_asset_clip duration before: 122117/60s, after: 43/30s
+new_asset_clip duration before: 122117/60s, after: 121949/60s, silence_duration 41/30s, old_duration: 43/30s
+old_asset_clip fps: 100/6000s, start: 258442/60s, start_frac: 129221/30, end: 287384/60s, end_frac: 71846/15, duration: 14471/30
+old_asset_clip duration before: 121949/60s, after: 14471/30s
+new_asset_clip duration before: 121949/60s, after: 46013/30s, silence_duration 327/20s, old_duration: 14471/30s
+old_asset_clip fps: 100/6000s, start: 288365/60s, start_frac: 57673/12, end: 288432/60s, end_frac: 24036/5, duration: 67/60
+old_asset_clip duration before: 46013/30s, after: 67/60s
+new_asset_clip duration before: 46013/30s, after: 90947/60s, silence_duration 253/15s, old_duration: 67/60s

@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 from tqdm import tqdm
 import copy
+from fractions import Fraction
 
 from . import fcpxml_io
 from . import parse_markers
@@ -17,6 +18,7 @@ def get_unprotected_silences(silences: list[dict], protected: list[dict]) -> lis
     if not protected:
         return silences
 
+    # Here the use of ditc2list and list2dict is okay because it's not meant to be used in precise final result but rough approximated comparison of intervals
     silences_list = fcp_math.dict2list(silences)
     protected_list = fcp_math.dict2list(protected)
     output_list = intervalop.excluding(silences_list, protected_list)
@@ -78,31 +80,32 @@ def cell_division(root, silence, fps='100/6000s'):
     new_asset_clip = copy.deepcopy(old_asset_clip)
     root.append(new_asset_clip)
 
-    # update the end of the first asset_clip
-    start = old_asset_clip.get("start")
-    if not start:
-        num, denom = fcp_math.unfrac(fps) 
-        start = f'0/{denom}s'
-    end = silence['start']
-    duration = fcp_math.fcpsec_subtract(end, start, fps)
-    old_asset_clip.set('duration', duration)
+    # update the end of the first (old) asset_clip
+    start = fcp_math.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)
+    end = fcp_math.fcpsec2frac(silence['start'])
+    duration = end - start
+    print(f"old_asset_clip fps: {fps}, start: {old_asset_clip.get('start')}, start_frac: {start}, end: {silence['start']}, end_frac: {end}, duration: {duration}")
+    print(f"old_asset_clip duration before: {old_asset_clip.get('duration')}, after: {duration}s")
+    old_asset_clip.set('duration', f"{fcp_math.frac2fcpsec(duration, fps)}")
 
-    # update the start of the second asset_clip
-    # first deduct the silence length from the current duration here
+    # update the start of the second (new) asset_clip
     new_asset_clip.set('start', silence['end'])
-    old_offset = old_asset_clip.get('offset')
-    old_duration = old_asset_clip.get('duration')
-    offset = fcp_math.fcpsec_add(old_offset, old_duration, fps)
-    # now deduct old_duration from the current duration here
-    new_asset_clip.set('offset', offset)
+    old_offset = fcp_math.fcpsec2frac(old_asset_clip.get('offset'))
+    old_duration = fcp_math.fcpsec2frac(old_asset_clip.get('duration'))
+    new_offset = old_offset + old_duration
+    new_asset_clip.set('offset', f"{fcp_math.frac2fcpsec(new_offset, fps)}")
 
-    # first deduct the silence length from the current duration here
-    # now deduct old_duration from the current duration here
-    new_duration = new_asset_clip.get('duration')
-    silence_duration = fcp_math.fcpsec_subtract(silence['end'], silence['start'], fps)
-    reduced_duration = fcp_math.fcpsec_add(old_duration, silence_duration, fps)
-    new_duration = fcp_math.fcpsec_subtract(new_duration, reduced_duration, fps)
-    new_asset_clip.set('duration', new_duration)
+    # now adjust the duration of the new (second) asset_clip
+    # first deduct the silence length from the current second duration here
+    # now deduct old_duration from the current second duration here
+    new_duration = fcp_math.fcpsec2frac(new_asset_clip.get('duration'))
+    silence_start = fcp_math.fcpsec2frac(silence['start'])
+    silence_end = fcp_math.fcpsec2frac(silence['end'])
+    silence_duration = silence_end - silence_start
+    reduced_duration = old_duration + silence_duration
+    new_duration -= reduced_duration
+    print(f"new_asset_clip duration before: {new_asset_clip.get('duration')}, after: {new_duration}s, silence_duration {silence_duration}s, old_duration: {old_duration}s")
+    new_asset_clip.set('duration', f"{fcp_math.frac2fcpsec(new_duration, fps)}")
 
     # update the markers belonging to each clip
     trim_markers(old_asset_clip, fps)
@@ -111,23 +114,21 @@ def cell_division(root, silence, fps='100/6000s'):
 def blade_silence(root, silences, fps='100/6000s'):
     """
     silences: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
-    protected: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
     """
     spine = fcpxml_io.get_spine(root)
 
     sequence = root.find('.//sequence')
     original_timeline_duration = sequence.get('duration')
+    original_timeline_duration = fcp_math.fcpsec2float(original_timeline_duration, fps)
 
     # Divide the spine asset_clip into multiple asset_clips
-    num, denom = fcp_math.unfrac(fps)
-    total_duration_reduced = f"0/{denom}s"
     for s in tqdm(silences):
         # for each silence,
         # pick up the last spine asset_clip
         # divide_cell it (does all the magic like dividing markers as well)
         cell_division(root=spine, silence=s, fps=fps)
 
-    new_spine_duration = '0/6000s'
+    new_spine_duration = 0.0
     for c in spine:
-        new_spine_duration = fcp_math.fcpsec_add(new_spine_duration, c.get('duration'))
-    sequence.set('duration', new_spine_duration)
+        new_spine_duration += fcp_math.fcpsec2float(c.get('duration'))
+    sequence.set('duration', f"{new_spine_duration}s")

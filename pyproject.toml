@@ -1,0 +1,22 @@
+[project]
+name = "fcp-silence-remover"
+version = "0.0.1"
+authors = [
+  { name="Sugil Steve Lee", email="sugilmath@gmail.com" },
+]
+description = "Read FCPXML Project, read silence Markers, remove silent regions."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/leesugil/fcp-silence-remove"
+Issues = "https://github.com/leesugil/fcp-silence-remover/issues"
+
+[project.scripts]
+fcp-remove-silence = "fcp_silence_remover.cli:main"

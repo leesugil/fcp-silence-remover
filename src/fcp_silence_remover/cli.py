@@ -7,7 +7,7 @@ from urllib.parse import urlparse, unquote
 
 from . import blade_silences
 from . import parse_markers
-from . import fcpxml_io
+from fcp_io import fcpxml_io
 
 def clean_filepath(line):
     output = os.path.abspath(line.strip())
@@ -59,7 +59,7 @@ def main():
     tree, root = fcpxml_io.get_fcpxml(xf)
     spine = fcpxml_io.get_spine(root)
     asset_clip = spine.find('asset-clip')
-    # 100/6000s
+    # '100/6000s'
     fps = fcpxml_io.get_fps(root)
 
     silences = parse_markers.get_silences(clip=asset_clip, key=args.skey)
@@ -68,7 +68,7 @@ def main():
     silences = blade_silences.get_unprotected_silences(silences, protected)
     blade_silences.blade_silence(root=root, silences=silences, fps=fps, debug=DEBUG)
 
-    fcpxml_io.save(tree=tree, filepath=xf, affix=args.affix)
+    fcpxml_io.save_with_affix(tree=tree, filepath=xf, affix=args.affix)
 
 if __name__ == "__main__":
     main()

@@ -7,6 +7,9 @@ authors = [
 description = "Read FCPXML Project, read silence Markers, remove silent regions."
 readme = "README.md"
 requires-python = ">=3.9"
+dependencies = [
+    "fcp-io>=0.0.1",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",

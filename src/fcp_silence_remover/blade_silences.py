@@ -3,7 +3,7 @@ from tqdm import tqdm
 import copy
 from fractions import Fraction
 
-from . import fcpxml_io
+from fcp_io import fcpxml_io
 from . import parse_markers
 from . import fcp_math
 import intervalop
@@ -53,9 +53,9 @@ def trim_markers(clip, fps='100/6000s', debug=False):
             # end <= marker_start
             clip.remove(m)
 
-def cell_division(root, silence, fps='100/6000s', debug=False):
+def cell_division(spine, silence, fps='100/6000s', debug=False):
     """
-    root: an XML ET tree
+    spine: XML ET spine element
     silence: {'start': 'xxx.yys', 'end': 'aaa.bbs'}
     fps: fps of the project clip (not necesarily the source clip)
 
@@ -75,11 +75,11 @@ def cell_division(root, silence, fps='100/6000s', debug=False):
     # return nothing (input objects are mutable and passed by object reference
 
     # pick up the last spine asset_clip
-    old_asset_clip = fcpxml_io.get_asset_clip(root)
+    old_asset_clip = fcpxml_io.get_last_asset_clip(spine)
 
     # add a duplicate of the asset_clip
     new_asset_clip = copy.deepcopy(old_asset_clip)
-    root.append(new_asset_clip)
+    spine.append(new_asset_clip)
 
     # update the end of the first (old) asset_clip
     start = fcp_math.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)

@@ -37,6 +37,8 @@ def main():
     parser.add_argument("--pkey", type=str, default='Protection', help="A keyword to be used in recognizing Markers meant to mark protected regions from deleting silence in the Project Timeline")
     # output
     parser.add_argument("--affix", type=str, default='silence_removed_', help="affix to modify the output filename")
+    # debug
+    parser.add_argument("--debug", type=str, default=0, help="DEBUG output")
 
     args = parser.parse_args()
 
@@ -44,6 +46,8 @@ def main():
     vf = clean_filepath(parse_fcpxml_filepath(xf))
     print(f"fcpxml file: {xf}")
     print(f"video file: {vf}")
+
+    DEBUG = True if (args.debug == 1) else False
 
     # parse silences
     # parse protected regions
@@ -62,7 +66,7 @@ def main():
     protected = parse_markers.get_protected(clip=asset_clip, key=args.pkey)
 
     silences = blade_silences.get_unprotected_silences(silences, protected)
-    blade_silences.blade_silence(root=root, silences=silences, fps=fps)
+    blade_silences.blade_silence(root=root, silences=silences, fps=fps, debug=DEBUG)
 
     fcpxml_io.save(tree=tree, filepath=xf, affix=args.affix)
 

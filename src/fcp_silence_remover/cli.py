@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import os
 import argparse
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse, unquote
@@ -8,21 +7,6 @@ from urllib.parse import urlparse, unquote
 from . import blade_silences
 from . import parse_markers
 from fcp_io import fcpxml_io
-
-def clean_filepath(line):
-    output = os.path.abspath(line.strip())
-    return output
-
-def parse_fcpxml_filepath(xf):
-    fcpxml_filename = 'Info.fcpxml'
-    fcpxml_filepath = os.path.join(xf, fcpxml_filename)
-    tree = ET.parse(fcpxml_filepath)
-    root = tree.getroot()
-    media_rep = root.find(".//media-rep[@kind='original-media']")
-    output = media_rep.get('src')
-    output = urlparse(output)
-    output = unquote(output.path)
-    return output
 
 def main():
 
@@ -42,8 +26,8 @@ def main():
 
     args = parser.parse_args()
 
-    xf = clean_filepath(args.fcpxml_filepath)
-    vf = clean_filepath(parse_fcpxml_filepath(xf))
+    xf = fcpxml_io.clean_filepath(args.fcpxml_filepath)
+    vf = fcpxml_io.clean_filepath(fcpxml_io.parse_fcpxml_filepath(xf))
     print(f"fcpxml file: {xf}")
     print(f"video file: {vf}")
 
@@ -68,7 +52,7 @@ def main():
     silences = blade_silences.get_unprotected_silences(silences, protected)
     blade_silences.blade_silence(root=root, silences=silences, fps=fps, debug=DEBUG)
 
-    fcpxml_io.save_with_affix(tree=tree, filepath=xf, affix=args.affix)
+    fcpxml_io.save_with_affix(tree=tree, src_filepath=xf, affix=args.affix)
 
 if __name__ == "__main__":
     main()

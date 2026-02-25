@@ -9,6 +9,9 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "fcp-io>=0.0.1",
+	"fcp-math>=0.0.1",
+	"fcp-marker-trimmer>=0.0.1",
+	"intervalop>=0.0.1",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",

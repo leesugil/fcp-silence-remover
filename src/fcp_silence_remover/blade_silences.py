@@ -6,7 +6,7 @@ from fractions import Fraction
 from fcp_io import fcpxml_io
 from . import parse_markers
 from fcp_math import arithmetic
-from fcp-marker-trimmer import trim
+from fcp_marker_trimmer import trim
 import intervalop
 
 def get_unprotected_silences(silences: list[dict], protected: list[dict]) -> list[dict]:
@@ -63,6 +63,8 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
         print(f"old_asset_clip fps: {fps}, start: {old_asset_clip.get('start')}, start_frac: {start}, end: {silence['start']}, end_frac: {end}, duration: {duration}")
         print(f"old_asset_clip duration before: {old_asset_clip.get('duration')}, after: {duration}s")
     old_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(duration, fps)}")
+    if debug:
+        print(f"old_asset_clip's new duration: {arithmetic.frac2fcpsec(duration, fps)}, fps: {fps}")
 
     # update the start of the second (new) asset_clip
     new_asset_clip.set('start', silence['end'])
@@ -70,6 +72,8 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
     old_duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
     new_offset = old_offset + old_duration
     new_asset_clip.set('offset', f"{arithmetic.frac2fcpsec(new_offset, fps)}")
+    if debug:
+        print(f"new_asset_clip's new offset: {arithmetic.frac2fcpsec(new_offset, fps)}, fps: {fps}")
 
     # now adjust the duration of the new (second) asset_clip
     # first deduct the silence length from the current second duration here
@@ -83,6 +87,8 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
     if debug:
         print(f"new_asset_clip duration before: {new_asset_clip.get('duration')}, after: {new_duration}s, silence_duration {silence_duration}s, old_duration: {old_duration}s")
     new_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(new_duration, fps)}")
+    if debug:
+        print(f"new_asset_clip's new duration: {arithmetic.frac2fcpsec(new_duration, fps)}, fps: {fps}")
 
     # update the markers belonging to each clip
     trim.trim_markers(clip=old_asset_clip, fps=fps, debug=debug)
@@ -103,7 +109,7 @@ def blade_silence(root, silences, fps='100/6000s', debug=False):
         # for each silence,
         # pick up the last spine asset_clip
         # divide_cell it (does all the magic like dividing markers as well)
-        cell_division(root=spine, silence=s, fps=fps, debug=debug)
+        cell_division(spine=spine, silence=s, fps=fps, debug=debug)
 
     new_spine_duration = 0.0
     for c in spine:

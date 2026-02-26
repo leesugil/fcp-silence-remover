@@ -1,6 +1,6 @@
 [project]
 name = "fcp-silence-remover"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Sugil Steve Lee", email="sugilmath@gmail.com" },
 ]
@@ -8,9 +8,9 @@ description = "Read FCPXML Project, read silence Markers, remove silent regions.
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "fcp-io>=0.0.1",
-	"fcp-math>=0.0.1",
-	"fcp-marker-trimmer>=0.0.1",
+    "fcp-io>=0.0.2",
+	"fcp-math>=0.0.2",
+	"fcp-marker-trimmer>=0.0.2",
 	"intervalop>=0.0.1",
 ]
 classifiers = [

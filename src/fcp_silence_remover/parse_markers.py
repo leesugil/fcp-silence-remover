@@ -10,9 +10,10 @@ def get_markers(clip, key='keyword'):
 
 def merge_pair_markers(markers):
     """
-    [<marker start="129/10s" duration="1500/90000s" value="Silence start 1"/>,
-     <marker start="189/10s" duration="1500/90000s" value="Silence end 1"/>,
-     ...]
+    markers: [
+        <marker start="129/10s" duration="1500/90000s" value="Silence start 1"/>,
+        <marker start="189/10s" duration="1500/90000s" value="Silence end 1"/>,
+        ...]
 
     output: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
     """

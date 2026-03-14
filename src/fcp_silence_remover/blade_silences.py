@@ -9,7 +9,7 @@ from fcp_math import arithmetic
 from fcp_marker_trimmer import trim
 import intervalop
 
-def get_unprotected_silences(silences: list[dict], protected: list[dict]) -> list[dict]:
+def get_unprotected_silences(silences: list[dict], protected: list[dict], cut_silence: bool=False) -> list[dict]:
     """
     silences: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
     protected: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
@@ -22,7 +22,11 @@ def get_unprotected_silences(silences: list[dict], protected: list[dict]) -> lis
     # Here the use of ditc2list and list2dict is okay because it's not meant to be used in precise final result but rough approximated comparison of intervals
     silences_list = arithmetic.dict2list(silences)
     protected_list = arithmetic.dict2list(protected)
-    output_list = intervalop.excluding(silences_list, protected_list)
+    output_list = []
+    if cut_silence:
+        output_list = intervalop.set_differences(silences_list, protected_list)
+    else:
+        output_list = intervalop.excluding(silences_list, protected_list)
     output = arithmetic.list2dict(output_list)
 
     return output
@@ -110,6 +114,32 @@ def blade_silence(root, silences, fps='100/6000s', debug=False):
         # pick up the last spine asset_clip
         # divide_cell it (does all the magic like dividing markers as well)
         cell_division(spine=spine, silence=s, fps=fps, debug=debug)
+
+        # wait, instead of the current workflow,
+        # whay don't i also Blade silences in the protected region
+        # without cutting out?
+        # because i do manually and potentially cut out some parts inside protected regions,
+        # and such action still causes minor performance issue,
+        # so wouldn't it be better to pre-cut at silence Markers and trim out Markers
+        # so that i wouldn't have any repetition?
+        #
+        # let's say, instead of main() picking 'silences' only,
+        # let's pick 'silences' and 'protected', and process differently.
+        # for example, unlike playing Bannerlord, if I play other games like KCD2 or W4K Space Marine 2,
+        # i'll have different preferences on how much to protect from removal and how much to skip screen events and keep the pace to me talking in the video.
+        # it's like a spectrum
+        #    |-------------------------------------|
+        # Contents                              Contents
+        # that the audio relies                 that the audio is
+        # on me keep talking                    rich in in-game voice-over features
+        # like Bannerlord                       like KCD2
+        # 
+        # my design choice will keep evolve around, but for now,
+        # i'm thinking of these two examples because
+        # KCD2 will be my next game, and i'm wondering if
+        # marking 'protection' will be better or
+        # marking 'remove silence' will be better.
+        # (if there are frequent, short in-game voice-over dialogues, ...)
 
     new_spine_duration = 0.0
     for c in spine:

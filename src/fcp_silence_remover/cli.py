@@ -18,6 +18,8 @@ def main():
     parser.add_argument("--pkey", type=str, default='Protection', help="A keyword to be used in recognizing Markers meant to mark protected regions from deleting silence in the Project Timeline")
     # output
     parser.add_argument("--affix", type=str, default='silence_removed_', help="affix to modify the output filename")
+    # cut_silence
+    parser.add_argument("--cut_silence", action='store_true', help="(experimental) cut silences out by protected intervals.")
     # debug
     parser.add_argument("--debug", action='store_true', help="(experimental) display debug messages.")
 
@@ -40,7 +42,7 @@ def main():
     silences = parse_markers.get_silences(clip=asset_clip, key=args.skey)
     protected = parse_markers.get_protected(clip=asset_clip, key=args.pkey)
 
-    silences = blade_silences.get_unprotected_silences(silences, protected)
+    silences = blade_silences.get_unprotected_silences(silences=silences, protected=protected, cut_silence=args.cut_silence)
     blade_silences.blade_silence(root=root, silences=silences, fps=fps, debug=args.debug)
 
     fcpxml_io.save_with_affix(tree=tree, src_filepath=xf, affix=args.affix)

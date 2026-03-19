@@ -1,3 +1,4 @@
+from fcp_math import arithmetic
 
 def get_markers(clip, key='keyword'):
     """
@@ -21,6 +22,8 @@ def merge_pair_markers(markers):
     for i in range(0, len(markers), 2):
         start = markers[i].get('start')
         end = markers[i+1].get('start')
+        marked_duration = arithmetic.fcpsec2frac(end) - arithmetic.fcpsec2frac(start)
+        assert marked_duration > 0
         output.append({'start': start, 'end': end})
     return output
 

@@ -27,6 +27,11 @@ def get_unprotected_silences(silences: list[dict], protected: list[dict], cut_si
         output_list = intervalop.set_differences(silences_list, protected_list)
     else:
         output_list = intervalop.excluding(silences_list, protected_list)
+
+    # proof
+    for o in output_list:
+        assert o[0] < o[1], f"Is this silence interval okay? {o}"
+
     output = arithmetic.list2dict(output_list)
 
     return output
@@ -55,6 +60,17 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
     # pick up the last spine asset_clip
     old_asset_clip = fcpxml_io.get_last_asset_clip(spine)
 
+    if debug:
+        start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
+        duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
+        end = start + duration
+        print("cell_divion START")
+        print(f"orignal asset_clip | start: {start}, end: {end}, duration: {duration}")
+        start = arithmetic.fcpsec2frac(silence['start'])
+        end = arithmetic.fcpsec2frac(silence['end'])
+        duration = end - start
+        print(f"silence | start: {start}, end: {end}, duration: {duration}")
+
     # add a duplicate of the asset_clip
     new_asset_clip = copy.deepcopy(old_asset_clip)
     spine.append(new_asset_clip)
@@ -63,9 +79,24 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
     start = arithmetic.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)
     end = arithmetic.fcpsec2frac(silence['start'])
     duration = end - start
+
+    # proof
+    assert duration > 0, f"start: {start} from {old_asset_clip.get('start')}, end: {end} from {silence['start']}"
+
     if debug:
-        print(f"old_asset_clip fps: {fps}, start: {old_asset_clip.get('start')}, start_frac: {start}, end: {silence['start']}, end_frac: {end}, duration: {duration}")
-        print(f"old_asset_clip duration before: {old_asset_clip.get('duration')}, after: {duration}s")
+        print(f"fps: {fps}")
+        #print(f"old_asset_clip fps: {fps}, start: {old_asset_clip.get('start')}, start_frac: {start}, end: {silence['start']}, end_frac: {end}, duration: {duration}")
+        # original asset_clip
+        start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
+        duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
+        end = start + duration
+        print(f"original asset_clip | start: {start}, end: {end}, duration: {duration}")
+        # new old_asset_clip
+        end = arithmetic.fcpsec2frac(silence['start'])
+        duration = end - start
+        print(f"old_asset_clip | start: {start}, end: {end}, duration: {duration}")
+        #print(f"old_asset_clip fps: {fps}, start: {old_asset_clip.get('start')}, start_frac: {start}, end: {silence['start']}, end_frac: {end}, duration: {duration}")
+        #print(f"old_asset_clip duration before: {old_asset_clip.get('duration')}, after: {duration}s")
     old_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(duration, fps)}")
     if debug:
         print(f"old_asset_clip's new duration: {arithmetic.frac2fcpsec(duration, fps)}, fps: {fps}")
@@ -89,14 +120,22 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
     reduced_duration = old_duration + silence_duration
     new_duration -= reduced_duration
     if debug:
-        print(f"new_asset_clip duration before: {new_asset_clip.get('duration')}, after: {new_duration}s, silence_duration {silence_duration}s, old_duration: {old_duration}s")
+        print("new second asset_clip's duration = original_asset_clip duration - old_asset_clip_duration - silence_duration")
+        #print(f"new_asset_clip duration before: {new_asset_clip.get('duration')}, after: {new_duration}s, silence_duration {silence_duration}s, old_duration: {old_duration}s")
+        print(f"original_asset_clip_duration: {new_asset_clip.get('duration')}, old_duration: {old_duration}s, silence_duration {silence_duration}s, new second asset_clip duration: {new_duration}s")
     new_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(new_duration, fps)}")
     if debug:
         print(f"new_asset_clip's new duration: {arithmetic.frac2fcpsec(new_duration, fps)}, fps: {fps}")
+        # checksum
+        print(f"new_asset_clip start as silence['end']: {new_asset_clip.get('start')} == {silence['end']}")
+        print(f"new_asset_clip duration: {new_asset_clip.get('duration')}")
 
     # update the markers belonging to each clip
     trim.trim_markers(clip=old_asset_clip, fps=fps, debug=debug)
     trim.trim_markers(clip=new_asset_clip, fps=fps, debug=debug)
+
+    if debug:
+        print("asset_clip cell_division done")
 
 def blade_silence(root, silences, fps='100/6000s', debug=False):
     """

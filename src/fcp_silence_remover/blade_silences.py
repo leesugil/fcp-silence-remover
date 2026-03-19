@@ -81,7 +81,7 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
     duration = end - start
 
     # proof
-    assert duration > 0, f"start: {start} from {old_asset_clip.get('start')}, end: {end} from {silence['start']}"
+    #assert duration > 0, f"start: {start} from {old_asset_clip.get('start')}, end: {end} from {silence['start']}"
 
     if debug:
         print(f"fps: {fps}")
@@ -137,6 +137,13 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
     if debug:
         print("asset_clip cell_division done")
 
+def remove_zero_durations(spine, debug=False):
+    clips = spine.findall('asset-clip')
+    for c in clips:
+        duration = arithmetic.fcpsec2frac(c.get('duration'))
+        if duration <= 0:
+            spine.remove(c)
+
 def blade_silence(root, silences, fps='100/6000s', debug=False):
     """
     silences: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
@@ -179,8 +186,11 @@ def blade_silence(root, silences, fps='100/6000s', debug=False):
         # marking 'protection' will be better or
         # marking 'remove silence' will be better.
         # (if there are frequent, short in-game voice-over dialogues, ...)
-
+    
     new_spine_duration = 0.0
     for c in spine:
         new_spine_duration += arithmetic.fcpsec2float(c.get('duration'))
     sequence.set('duration', f"{new_spine_duration}s")
+
+    # Remove asset-clips with duration=0.0s (should only be possible for the first and the last one)
+    remove_zero_durations(spine, debug)

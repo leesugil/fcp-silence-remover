@@ -19,7 +19,7 @@ def main():
     # output
     parser.add_argument("--affix", type=str, default='silence_removed_', help="affix to modify the output filename")
     # cut_silence
-    parser.add_argument("--cut_silence", action='store_true', help="(experimental) cut silences out by protected intervals.")
+    parser.add_argument("--cut-silence", action='store_true', help="(experimental) cut silences out by protected intervals.")
     # debug
     parser.add_argument("--debug", action='store_true', help="(experimental) display debug messages.")
 

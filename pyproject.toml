@@ -11,7 +11,7 @@ dependencies = [
     "fcp-io>=0.0.2",
 	"fcp-math>=0.0.2",
 	"fcp-marker-trimmer>=0.0.2",
-	"intervalop>=0.0.1",
+	"intervalop>=0.0.2",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",

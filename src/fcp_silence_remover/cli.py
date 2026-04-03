@@ -2,6 +2,7 @@
 
 import argparse
 import xml.etree.ElementTree as ET
+from tqdm import tqdm
 
 from . import blade_silences
 from . import parse_markers
@@ -26,24 +27,24 @@ def main():
     args = parser.parse_args()
 
     xf = fcpxml_io.clean_filepath(args.fcpxml_filepath)
-    vf = fcpxml_io.clean_filepath(fcpxml_io.parse_fcpxml_filepath(xf))
     print(f"fcpxml file: {xf}")
-    print(f"video file: {vf}")
 
     # <fcpxml>
     tree, root = fcpxml_io.get_fcpxml(xf)
-    spine = fcpxml_io.get_spine(root)
-    asset_clip = spine.find('asset-clip')
+    asset_clips = fcpxml_io.get_all_spine_asset_clips(root=root)
     # '100/6000s'
     fps = fcpxml_io.get_fps(root)
     if args.debug:
         print(f"fps: {fps}")
 
-    silences = parse_markers.get_silences(clip=asset_clip, key=args.skey)
-    protected = parse_markers.get_protected(clip=asset_clip, key=args.pkey)
+    for asset_clip in tqdm(asset_clips):
+        silences = parse_markers.get_silences(clip=asset_clip, key=args.skey)
+        protected = parse_markers.get_protected(clip=asset_clip, key=args.pkey)
 
-    silences = blade_silences.get_unprotected_silences(silences=silences, protected=protected, cut_silence=args.cut_silence)
-    blade_silences.blade_silence(root=root, silences=silences, fps=fps, debug=args.debug)
+        silences = blade_silences.get_unprotected_silences(silences=silences, protected=protected, cut_silence=args.cut_silence)
+        blade_silences.blade_silence(asset_clip=asset_clip, root=root, silences=silences, fps=fps, debug=args.debug)
+
+    blade_silences.collapse_gaps(root=root, fps=fps, debug=args.debug)
 
     fcpxml_io.save_with_affix(tree=tree, src_filepath=xf, affix=args.affix)
 

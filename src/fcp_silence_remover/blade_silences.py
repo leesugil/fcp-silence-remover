@@ -15,6 +15,8 @@ def get_unprotected_silences(silences: list[dict], protected: list[dict], cut_si
     protected: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
 
     output: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
+
+    Note that the timestamps are local to the source media, not necessarilly matching to the global timeline in the Project Spine.
     """
     if not protected:
         return silences
@@ -36,29 +38,32 @@ def get_unprotected_silences(silences: list[dict], protected: list[dict], cut_si
 
     return output
 
-def cell_division(spine, silence, fps='100/6000s', debug=False):
+def cell_division(asset_clip, spine, silence, fps='100/6000s', debug=False):
     """
     spine: XML ET spine element
     silence: {'start': 'xxx.yys', 'end': 'aaa.bbs'}
     fps: fps of the project clip (not necesarily the source clip)
+    Note that silence is in the local source media (asset-clip) time, not in the global spine time.
+
+    Returns the remaining asset_clip to further work on cell_division in the parent loop.
 
     FCPXML language:
-    start of asset-clip: start time of the asset-clip to be played in the timeline, not the start position of the clip in the spine timeline.
-    offset of asset-clip: the start position of the clip in the spine timeline.
-    duration: determines the length of the clip to be placed in the spine timeline.
+    start of asset-clip: local start time of the asset-clip to be played in the global timeline, not the start position of the clip in the global spine timeline.
+    offset of asset-clip: the start position of the clip in the global spine timeline.
+    duration: determines the length of the clip to be placed in the global spine timeline.
 
     IMPORTANT:
     the start and end time of silence should be understood as the intrinsic timeline of the asset-clip, not the project timeline. the project timeline will constantly change each time cell-division is done, but all silences were measured before this cell-division-driven timeline messed up.
     """
-    # pick up the last spine asset_clip
+    # take asset_clip as the object
     # add a duplicate of the asset_clip
     # update the end of the first asset_clip
     # update the start of the second asset_clip
     # update the markers belonging to each clip
-    # return nothing (input objects are mutable and passed by object reference
+    # return the second asset_clip if exists, otherwise the first asset_clip
 
-    # pick up the last spine asset_clip
-    old_asset_clip = fcpxml_io.get_last_asset_clip(spine)
+    # take asset_clip as the object
+    old_asset_clip = asset_clip
 
     if debug:
         start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
@@ -72,20 +77,17 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
         print(f"silence | start: {start}, end: {end}, duration: {duration}")
 
     # add a duplicate of the asset_clip
+    index = list(spine).index(old_asset_clip)
     new_asset_clip = copy.deepcopy(old_asset_clip)
-    spine.append(new_asset_clip)
+    spine.insert(index + 1, new_asset_clip)
 
     # update the end of the first (old) asset_clip
     start = arithmetic.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)
     end = arithmetic.fcpsec2frac(silence['start'])
     duration = end - start
 
-    # proof
-    #assert duration > 0, f"start: {start} from {old_asset_clip.get('start')}, end: {end} from {silence['start']}"
-
     if debug:
         print(f"fps: {fps}")
-        #print(f"old_asset_clip fps: {fps}, start: {old_asset_clip.get('start')}, start_frac: {start}, end: {silence['start']}, end_frac: {end}, duration: {duration}")
         # original asset_clip
         start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
         duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
@@ -95,8 +97,6 @@ def cell_division(spine, silence, fps='100/6000s', debug=False):
         end = arithmetic.fcpsec2frac(silence['start'])
         duration = end - start
         print(f"old_asset_clip | start: {start}, end: {end}, duration: {duration}")
-        #print(f"old_asset_clip fps: {fps}, start: {old_asset_clip.get('start')}, start_frac: {start}, end: {silence['start']}, end_frac: {end}, duration: {duration}")
-        #print(f"old_asset_clip duration before: {old_asset_clip.get('duration')}, after: {duration}s")
     old_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(duration, fps)}")
     if debug:
         print(f"old_asset_clip's new duration: {arithmetic.frac2fcpsec(duration, fps)}, fps: {fps}")
@@ -144,53 +144,128 @@ def remove_zero_durations(spine, debug=False):
         if duration <= 0:
             spine.remove(c)
 
-def blade_silence(root, silences, fps='100/6000s', debug=False):
+def chop_asset_clip(asset_clip, spine, silence, fps='100/6000s', debug=False):
+    """
+    asset_clip: XML ET asset-clip element
+    silence: {'start': 'xxx.yys', 'end': 'aaa.bbs'}
+    fps: fps of the project clip (not necesarily the source clip)
+    Note that silence is in the local source media (asset-clip) time, not in the global spine time.
+
+    Returns the remaining asset_clip to further work on cell_division in the parent loop.
+
+    FCPXML language:
+    start of asset-clip: local start time of the asset-clip to be played in the global timeline, not the start position of the clip in the global spine timeline.
+    offset of asset-clip: the start position of the clip in the global spine timeline.
+    duration: determines the length of the clip to be placed in the global spine timeline.
+
+    IMPORTANT:
+    the start and end time of silence should be understood as the intrinsic timeline of the asset-clip, not the project timeline. the project timeline will constantly change each time cell-division is done, but all silences were measured before this cell-division-driven timeline messed up.
+    """
+    # take asset_clip as the object
+    # add a duplicate of the asset_clip
+    # update the end of the first asset_clip
+    # update the start of the second asset_clip
+    # update the markers belonging to each clip
+    # return the second asset_clip (it should always exist even if the duration is zero)
+
+    # take asset_clip as the object
+    old_asset_clip = asset_clip
+
+    if debug:
+        pass
+
+    # add a duplicate of the asset_clip
+    # there's something going on with the last element
+    # like the new duration is never updated
+    index = list(spine).index(old_asset_clip)
+    new_asset_clip = copy.deepcopy(old_asset_clip)
+    spine.insert(index + 1, new_asset_clip)
+
+    # update the end of the first (old) asset_clip
+    start = arithmetic.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)
+    end = arithmetic.fcpsec2frac(silence['start'])
+    duration = end - start
+
+    if debug:
+        print(f"fps: {fps}")
+        # original asset_clip
+        start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
+        duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
+        end = start + duration
+        print(f"original asset_clip | start: {start}, end: {end}, duration: {duration}")
+        # new old_asset_clip
+        end = arithmetic.fcpsec2frac(silence['start'])
+        duration = end - start
+        print(f"old_asset_clip | start: {start}, end: {end}, duration: {duration}")
+    old_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(duration, fps)}")
+    if debug:
+        print(f"old_asset_clip's new duration: {arithmetic.frac2fcpsec(duration, fps)}, fps: {fps}")
+
+    # update the start of the second (new) asset_clip
+    original_start_timestamp = new_asset_clip.get('start')
+    if not original_start_timestamp:
+        num, denom = arithmetic.unfrac(fps)
+        original_start_timestamp = f'0/{denom}s'
+    new_asset_clip.set('start', silence['end'])
+
+    # now adjust the duration of the new (second) asset_clip
+    original_duration = new_asset_clip.get('duration')
+    new_start_timestamp = new_asset_clip.get('start')
+    difference = arithmetic.fcpsec_subtract(new_start_timestamp, original_start_timestamp, fps=fps)
+    new_duration = arithmetic.fcpsec_subtract(original_duration, difference, fps=fps)
+    new_asset_clip.set('duration', new_duration)
+    if debug:
+        print(f"original_duration: {original_duration}")
+        print(f"new_start_timestamp: {new_start_timestamp}")
+        print(f"original_start_timestamp: {original_start_timestamp}")
+        print(f"difference: {difference}")
+        print(f"new_asset_clip's new duration: {new_duration}, fps: {fps}")
+        # checksum
+        print(f"new_asset_clip start as silence['end']: {new_asset_clip.get('start')} == {silence['end']}")
+        print(f"new_asset_clip duration: {new_asset_clip.get('duration')}")
+
+    # update the markers belonging to each clip
+    trim.trim_markers(clip=old_asset_clip, fps=fps, debug=debug)
+    trim.trim_markers(clip=new_asset_clip, fps=fps, debug=debug)
+
+    if debug:
+        print("asset_clip chop_asset_clip done")
+
+    return new_asset_clip
+
+def blade_silence(asset_clip, root, silences, fps='100/6000s', debug=False):
     """
     silences: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
+
+    The main purpose of this wrapper function is to loop over silences.
     """
+    sequence = fcpxml_io.get_sequence(root)
+    if debug:
+        print(f"blade_silence sequence: {sequence}, {sequence.tag}")
     spine = fcpxml_io.get_spine(root)
+    if debug:
+        print(f"blade_silence spine: {spine}, {spine.tag}")
 
-    sequence = root.find('.//sequence')
-    original_timeline_duration = sequence.get('duration')
-    original_timeline_duration = arithmetic.fcpsec2float(original_timeline_duration, fps)
-
-    # Divide the spine asset_clip into multiple asset_clips
+    # Cut-out silent regions from asset_clip
     for s in tqdm(silences):
         # for each silence,
-        # pick up the last spine asset_clip
+        # pick up the asset_clip to split,
         # divide_cell it (does all the magic like dividing markers as well)
-        cell_division(spine=spine, silence=s, fps=fps, debug=debug)
+        if asset_clip:
+            asset_clip = chop_asset_clip(asset_clip=asset_clip, spine=spine, silence=s, fps=fps, debug=debug)
 
-        # wait, instead of the current workflow,
-        # whay don't i also Blade silences in the protected region
-        # without cutting out?
-        # because i do manually and potentially cut out some parts inside protected regions,
-        # and such action still causes minor performance issue,
-        # so wouldn't it be better to pre-cut at silence Markers and trim out Markers
-        # so that i wouldn't have any repetition?
-        #
-        # let's say, instead of main() picking 'silences' only,
-        # let's pick 'silences' and 'protected', and process differently.
-        # for example, unlike playing Bannerlord, if I play other games like KCD2 or W4K Space Marine 2,
-        # i'll have different preferences on how much to protect from removal and how much to skip screen events and keep the pace to me talking in the video.
-        # it's like a spectrum
-        #    |-------------------------------------|
-        # Contents                              Contents
-        # that the audio relies                 that the audio is
-        # on me keep talking                    rich in in-game voice-over features
-        # like Bannerlord                       like KCD2
-        # 
-        # my design choice will keep evolve around, but for now,
-        # i'm thinking of these two examples because
-        # KCD2 will be my next game, and i'm wondering if
-        # marking 'protection' will be better or
-        # marking 'remove silence' will be better.
-        # (if there are frequent, short in-game voice-over dialogues, ...)
-    
-    new_spine_duration = 0.0
-    for c in spine:
-        new_spine_duration += arithmetic.fcpsec2float(c.get('duration'))
-    sequence.set('duration', f"{new_spine_duration}s")
+def collapse_gaps(root, fps='100/6000s', debug=False):
+    sequence = fcpxml_io.get_sequence(root)
+    spine = fcpxml_io.get_spine(root)
+
+    num, denom = arithmetic.unfrac(fps) 
+
+    #new_spine_duration = f'0/{denom}s'
+    new_clip_offset = f'0/{denom}s'
+    for asset_clip in spine:
+        asset_clip.set('offset', new_clip_offset)
+        new_clip_offset = arithmetic.fcpsec_add(new_clip_offset, asset_clip.get('duration'), fps)
+    sequence.set('duration', new_clip_offset)
 
     # Remove asset-clips with duration=0.0s (should only be possible for the first and the last one)
-    remove_zero_durations(spine, debug)
+    remove_zero_durations(spine=spine, debug=debug)

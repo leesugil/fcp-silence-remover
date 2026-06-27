@@ -182,7 +182,7 @@ def chop_asset_clip(asset_clip, spine, silence, overwrap, overwrap_source_channe
 
     # update the end of the first (old) asset_clip
     start = arithmetic.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)
-    end = arithmetic.fcpsec2frac(silence['start']) - arithmetic.float2frac(overwrap, fps)
+    end = arithmetic.fcpsec2frac(silence['start']) - arithmetic.to_fps(arithmetic.Fraction(overwrap), fps)
     duration = end - start
     if duration < 0.0:
         duration = arithmetic.fcpsec2frac(fps)
@@ -202,15 +202,15 @@ def chop_asset_clip(asset_clip, spine, silence, overwrap, overwrap_source_channe
         print(f"new old_asset_clip | start: {start}, end: {end}, duration: {duration}")
     # Set the new durations for the old asset_clip here.
     old_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(duration, fps)}")
-    old_asset_clip.set('audioStart', old_asset_clip.get('start'))
+    old_asset_clip.set('audioStart', f"{arithmetic.frac2fcpsec(start, fps)}")
     old_asset_clip.set('audioDuration', f"{arithmetic.frac2fcpsec(audio_duration, fps)}")
     audio_channel_sources = old_asset_clip.findall('audio-channel-source')
     for srcCh in audio_channel_sources:
         if (srcCh.get('active') == "0"):
             pass
-        elif (srcCh.get('srcCh') != overwrap-source-channel):
+        elif (srcCh.get('srcCh') != overwrap_source_channel):
             # Shrink-fix the audio track to the clip length.
-            srcCh.set('duration') = duration
+            srcCh.set('duration', arithmetic.frac2fcpsec(duration, fps))
     if debug:
         print(f"old_asset_clip's new duration: {arithmetic.frac2fcpsec(duration, fps)}, fps: {fps}")
 

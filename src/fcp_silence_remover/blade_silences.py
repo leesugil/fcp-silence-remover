@@ -85,18 +85,20 @@ def cell_division(asset_clip, spine, silence, fps='100/6000s', debug=False):
     start = arithmetic.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)
     end = arithmetic.fcpsec2frac(silence['start'])
     duration = end - start
+#    if duration <= arithmetic.fcpsec2frac(fps):
+#        duration = Fraction(0, 1)
 
     if debug:
         print(f"fps: {fps}")
         # original asset_clip
-        start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
-        duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
-        end = start + duration
-        print(f"original asset_clip | start: {start}, end: {end}, duration: {duration}")
+        old_start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
+        old_duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
+        old_end = old_start + old_duration
+        print(f"original asset_clip | start: {old_start}, end: {old_end}, duration: {old_duration}")
         # new old_asset_clip
-        end = arithmetic.fcpsec2frac(silence['start'])
-        duration = end - start
-        print(f"old_asset_clip | start: {start}, end: {end}, duration: {duration}")
+        new_end = arithmetic.fcpsec2frac(silence['start'])
+        new_duration = new_end - old_start
+        print(f"old_asset_clip | start: {old_start}, end: {new_end}, duration: {new_duration}")
     old_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(duration, fps)}")
     if debug:
         print(f"old_asset_clip's new duration: {arithmetic.frac2fcpsec(duration, fps)}, fps: {fps}")
@@ -185,7 +187,7 @@ def chop_asset_clip(asset_clip, spine, silence, overwrap, overwrap_source_channe
     end = arithmetic.fcpsec2frac(silence['start']) - arithmetic.to_fps(arithmetic.Fraction(overwrap), fps)
     duration = end - start
     if duration < 0.0:
-        duration = arithmetic.fcpsec2frac(fps)
+        duration = arithmetic.Fraction(0, 1)
     audio_end = arithmetic.fcpsec2frac(silence['start'])
     audio_duration = audio_end - start
 

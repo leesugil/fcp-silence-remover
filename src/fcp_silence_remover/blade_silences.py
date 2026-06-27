@@ -144,10 +144,11 @@ def remove_zero_durations(spine, debug=False):
         if duration <= 0:
             spine.remove(c)
 
-def chop_asset_clip(asset_clip, spine, silence, fps='100/6000s', debug=False):
+def chop_asset_clip(asset_clip, spine, silence, overwrap, overwrap_source_channel, fps='100/6000s', debug=False):
     """
     asset_clip: XML ET asset-clip element
     silence: {'start': 'xxx.yys', 'end': 'aaa.bbs'}
+    overwrap: float. This is the time amount in seconds that two consecutive sound blocks should overwrap.
     fps: fps of the project clip (not necesarily the source clip)
     Note that silence is in the local source media (asset-clip) time, not in the global spine time.
 
@@ -175,29 +176,41 @@ def chop_asset_clip(asset_clip, spine, silence, fps='100/6000s', debug=False):
         pass
 
     # add a duplicate of the asset_clip
-    # there's something going on with the last element
-    # like the new duration is never updated
     index = list(spine).index(old_asset_clip)
     new_asset_clip = copy.deepcopy(old_asset_clip)
     spine.insert(index + 1, new_asset_clip)
 
     # update the end of the first (old) asset_clip
     start = arithmetic.fcpsec2frac(old_asset_clip.get("start")) if old_asset_clip.get('start') else Fraction(0, 1)
-    end = arithmetic.fcpsec2frac(silence['start'])
+    end = arithmetic.fcpsec2frac(silence['start']) - arithmetic.float2frac(overwrap, fps)
     duration = end - start
+    if duration < 0.0:
+        duration = arithmetic.fcpsec2frac(fps)
+    audio_end = arithmetic.fcpsec2frac(silence['start'])
+    audio_duration = audio_end - start
 
     if debug:
         print(f"fps: {fps}")
         # original asset_clip
-        start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
-        duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
-        end = start + duration
-        print(f"original asset_clip | start: {start}, end: {end}, duration: {duration}")
+        old_start = arithmetic.fcpsec2frac(old_asset_clip.get('start')) if old_asset_clip.get('start') else Fraction(0, 1)
+        old_duration = arithmetic.fcpsec2frac(old_asset_clip.get('duration'))
+        old_end = start + duration
+        print(f"original asset_clip | start: {old_start}, end: {old_end}, duration: {old_duration}")
         # new old_asset_clip
-        end = arithmetic.fcpsec2frac(silence['start'])
-        duration = end - start
-        print(f"old_asset_clip | start: {start}, end: {end}, duration: {duration}")
+        #end = arithmetic.fcpsec2frac(silence['start'])
+        #duration = end - start
+        print(f"new old_asset_clip | start: {start}, end: {end}, duration: {duration}")
+    # Set the new durations for the old asset_clip here.
     old_asset_clip.set('duration', f"{arithmetic.frac2fcpsec(duration, fps)}")
+    old_asset_clip.set('audioStart', old_asset_clip.get('start'))
+    old_asset_clip.set('audioDuration', f"{arithmetic.frac2fcpsec(audio_duration, fps)}")
+    audio_channel_sources = old_asset_clip.findall('audio-channel-source')
+    for srcCh in audio_channel_sources:
+        if (srcCh.get('active') == "0"):
+            pass
+        elif (srcCh.get('srcCh') != overwrap-source-channel):
+            # Shrink-fix the audio track to the clip length.
+            srcCh.set('duration') = duration
     if debug:
         print(f"old_asset_clip's new duration: {arithmetic.frac2fcpsec(duration, fps)}, fps: {fps}")
 
@@ -233,7 +246,7 @@ def chop_asset_clip(asset_clip, spine, silence, fps='100/6000s', debug=False):
 
     return new_asset_clip
 
-def blade_silence(asset_clip, root, silences, fps='100/6000s', debug=False):
+def blade_silence(asset_clip, root, silences, overwrap, overwrap_source_channel, fps='100/6000s', debug=False):
     """
     silences: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
 
@@ -252,7 +265,7 @@ def blade_silence(asset_clip, root, silences, fps='100/6000s', debug=False):
         # pick up the asset_clip to split,
         # divide_cell it (does all the magic like dividing markers as well)
         if asset_clip:
-            asset_clip = chop_asset_clip(asset_clip=asset_clip, spine=spine, silence=s, fps=fps, debug=debug)
+            asset_clip = chop_asset_clip(asset_clip=asset_clip, spine=spine, silence=s, overwrap=overwrap, overwrap_source_channel=overwrap_source_channel, fps=fps, debug=debug)
 
 def collapse_gaps(root, fps='100/6000s', debug=False):
     sequence = fcpxml_io.get_sequence(root)

@@ -14,9 +14,12 @@ def main():
     parser = argparse.ArgumentParser(description="Remove marked silent regions from FCP Project. Can set protected regions in the timeline to avoid the deletion.")
     parser.add_argument("fcpxml_filepath", help="Absolute filepath to fcpxml (required)")
     # Silence keyword
-    parser.add_argument("--skey", type=str, default='Silence', help="A keyword to be used in recognizing Markers meant to mark silent regions in the Project Timeline")
+    parser.add_argument("--skey", type=str, default='silence', help="A keyword to be used in recognizing Markers meant to mark silent regions in the Project Timeline")
     # Protected region keyword
-    parser.add_argument("--pkey", type=str, default='Protection', help="A keyword to be used in recognizing Markers meant to mark protected regions from deleting silence in the Project Timeline")
+    parser.add_argument("--pkey", type=str, default='Marker', help="A keyword to be used in recognizing Markers meant to mark protected regions from deleting silence in the Project Timeline")
+    # Audio overwrapping (for example, voice overwrapping for smooth transition)
+    parser.add_argument("--overwrap", type=float, default=0.0, help="Without this, two sound blocks are completely separated by silence which doesn't sound realistic when it's somebody's voice record. This lets consecutive sound blocks overwrap a little so that the audio transition feels smooth and continuous.")
+    parser.add_argument("--overwrap-source-channel", type=str, default="1, 2", help="The audio source channels in FCP to apply the overwrap length.")
     # output
     parser.add_argument("--affix", type=str, default='silence_removed_', help="affix to modify the output filename")
     # cut_silence
@@ -42,7 +45,7 @@ def main():
         protected = parse_markers.get_protected(clip=asset_clip, key=args.pkey)
 
         silences = blade_silences.get_unprotected_silences(silences=silences, protected=protected, cut_silence=args.cut_silence)
-        blade_silences.blade_silence(asset_clip=asset_clip, root=root, silences=silences, fps=fps, debug=args.debug)
+        blade_silences.blade_silence(asset_clip=asset_clip, root=root, silences=silences, overwrap=args.overwrap, overwrap_source_channel=args.overwrap_source_channel, fps=fps, debug=args.debug)
 
     blade_silences.collapse_gaps(root=root, fps=fps, debug=args.debug)
 

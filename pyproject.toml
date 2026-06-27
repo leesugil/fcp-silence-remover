@@ -1,6 +1,6 @@
 [project]
 name = "fcp-silence-remover"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Sugil Steve Lee", email="sugilmath@gmail.com" },
 ]

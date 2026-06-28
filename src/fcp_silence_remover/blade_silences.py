@@ -38,6 +38,13 @@ def get_unprotected_silences(silences: list[dict], protected: list[dict], cut_si
 
     return output
 
+def remove_zero_durations(spine, debug=False):
+    clips = spine.findall('asset-clip')
+    for c in clips:
+        duration = arithmetic.fcpsec2frac(c.get('duration'))
+        if duration <= 0:
+            spine.remove(c)
+
 def chop_asset_clip(asset_clip, spine, silence, overwrap, overwrap_source_channel, fps='100/6000s', debug=False):
     """
     asset_clip: XML ET asset-clip element

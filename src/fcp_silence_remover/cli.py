@@ -20,6 +20,8 @@ def main():
     # Audio overwrapping (for example, voice overwrapping for smooth transition)
     parser.add_argument("--overwrap", type=float, default=0.0, help="Without this, two sound blocks are completely separated by silence which doesn't sound realistic when it's somebody's voice record. This lets consecutive sound blocks overwrap a little so that the audio transition feels smooth and continuous.")
     parser.add_argument("--overwrap-source-channel", type=str, default="1, 2", help="The audio source channels in FCP to apply the overwrap length.")
+    # audio track detected as assigned in FCP
+    parser.add_argument("--audio-channel-role", type=str, help="When using mixed stream tracks in a Project, choose the right track to scan based on how it's assigned originally in FCP.")
     # output
     parser.add_argument("--affix", type=str, default='silence_removed_', help="affix to modify the output filename")
     # cut_silence
@@ -45,7 +47,8 @@ def main():
         protected = parse_markers.get_protected(clip=asset_clip, key=args.pkey)
 
         silences = blade_silences.get_unprotected_silences(silences=silences, protected=protected, cut_silence=args.cut_silence)
-        blade_silences.blade_silence(asset_clip=asset_clip, root=root, silences=silences, overwrap=args.overwrap, overwrap_source_channel=args.overwrap_source_channel, fps=fps, debug=args.debug)
+        overwrap_source_channel = blade_silences.determine_overwrap_source_channel(asset_clip=asset_clip, given_source_channel=args.overwrap_source_channel, given_audio_channel_role=args.audio_channel_role)
+        blade_silences.blade_silence(asset_clip=asset_clip, root=root, silences=silences, overwrap=args.overwrap, overwrap_source_channel=overwrap_source_channel, fps=fps, debug=args.debug)
 
     blade_silences.collapse_gaps(root=root, fps=fps, debug=args.debug)
 

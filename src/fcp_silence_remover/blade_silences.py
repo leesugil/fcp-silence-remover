@@ -9,6 +9,17 @@ from fcp_math import arithmetic
 from fcp_marker_trimmer import trim
 import intervalop
 
+def determine_overwrap_source_channel(asset_clip, given_source_channel, given_audio_channel_role, debug=False):
+    if given_audio_channel_role:
+        # In case of multiple detection, the current version just picks first audio channel source to scan
+        detected_audio_sources = asset_clip.findall(f"audio-channel-source[@role='{given_audio_channel_role}']")
+        if len(detected_audio_sources) == 0:
+            raise("Fatal error, there is no audio track to scan. Double check to make sure the audio channel role name provided here matches with your FCP Project.")
+        else:
+            return detected_audio_sources[0].get('srcCh')
+    else:
+        return given_source_channel
+
 def get_unprotected_silences(silences: list[dict], protected: list[dict], cut_silence: bool=False) -> list[dict]:
     """
     silences: [{'start': 'xxxx/yyys', 'end': 'aaaa/bbs'}, ...]
